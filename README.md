@@ -1,1 +1,0 @@
-# qptjdqls.github.io
