@@ -22,8 +22,8 @@ title: qptjdqls
 email: qptjdqls@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   blog
-# baseurl: "/" # the subpath of your site, e.g. /blog
-# url: "http://ejjoo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "http://qptjdqls.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: qptjdqls
 highlighter: rouge
 svg:
@@ -36,6 +36,7 @@ plugins:
   - jekyll-feed
 category_dir: category/
 tag_dir: tag/
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
