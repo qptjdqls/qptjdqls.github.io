@@ -25,9 +25,16 @@ categories: etc
 
 ---
 
+- **ICE BOX**
+  - [ ] [How to study RL](https://github.com/reinforcement-learning-kr/how_to_study_rl)
+  - [ ] David Silver lecture
+
 - 2022/08/07
-    - [x] 블로그에 checklist 작성
-    - [x] John Schulman 트위터 팔로우
-    - [ ] 누워서 하는 운동 정하기
+  - [x] 블로그에 checklist 작성
+  - [x] John Schulman 트위터 팔로우
+  - [ ] 누워서 하는 운동 정하기
+  - [ ] InfoGAN 논문 review
+  - [ ] 새로운 Denoising network 로 sample 생성
+  - [ ] 쉬운 condition 의 simulation 이미지로 unmixing 실험
 - 2022/08/08
-    - 123
+  - [ ] -
