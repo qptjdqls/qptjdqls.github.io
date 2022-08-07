@@ -15,8 +15,6 @@ categories: etc
 2. [Kurzgesagt](https://www.youtube.com/watch?v=75d_29QWELk)
    - easy situation 이 trigger 가 되게 해서 hard action 을 습관으로 만들수 있다. 
 
----
-
 |easy situation|hard action|
 |:---:|:---:|
 |컴퓨터를 켰을 때|가장 먼저 blog 에 어떤 글이라도 작성|
