@@ -36,7 +36,7 @@ categories: etc
   - [ ] InfoGAN 논문 review
   - [ ] 새로운 Denoising network 로 sample 생성
   - [ ] 쉬운 condition 의 simulation 이미지로 unmixing 실험
-  - [ ] 화장실 배수구 뚫기
+  - [x] 화장실 배수구 뚫기
   - [ ] 빨래
 - 2022/08/08
   - [ ] -
