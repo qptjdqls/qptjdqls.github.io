@@ -26,15 +26,21 @@ categories: etc
 - **ICE BOX**
   - [ ] [How to study RL](https://github.com/reinforcement-learning-kr/how_to_study_rl)
   - [ ] David Silver lecture
+  - [ ] Information Geometry
 
 - 2022/08/07
   - [x] 블로그에 checklist 작성
   - [x] John Schulman 트위터 팔로우
-  - [ ] 누워서 하는 운동 정하기
-  - [ ] InfoGAN 논문 review
-  - [ ] 새로운 Denoising network 로 sample 생성
-  - [ ] 쉬운 condition 의 simulation 이미지로 unmixing 실험
+  - [ ] 누워서 하는 운동 정하기 (하나씩 추가)
+    - [ ] [브릿지](https://brunch.co.kr/@tenbody/1486)
+    - [ ] [레그레이즈](https://brunch.co.kr/@tenbody/1486)
+    - [ ] 
+  - [ ] ~~InfoGAN 논문 review~~
+  - [x] 새로운 Denoising network 로 sample 생성
+  - [x] 쉬운 condition 의 simulation 이미지로 unmixing 실험
   - [x] 화장실 배수구 뚫기
-  - [ ] 빨래
+  - [x] 빨래
 - 2022/08/08
-  - [ ] -
+  - [ ] Denoising network 결과 정리
+  - [ ] InfoGAN 논문 review
+  - [ ] CycleGAN 논문 review
