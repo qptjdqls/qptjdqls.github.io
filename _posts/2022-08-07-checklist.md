@@ -43,3 +43,9 @@ categories: etc
   - [ ] Denoising network 결과 정리
   - [ ] InfoGAN 논문 review
   - [ ] CycleGAN 논문 review
+- 2022/08/09
+  - [ ] [github.io 에 mathjax 추가](http://csega.github.io/mypost/2017/03/28/how-to-set-up-mathjax-on-jekyll-and-github-properly.html)
+  - [x] github.io 의 latex 문법 오류
+    - p_{data} => $p_{data}$ / p _{data} => $p _{data}$
+    - p(x|y) => $p(x|y)$ / p(x\|y) => $p(x\|y)$
+  - [ ] github.io 의 이미지 상대경로 오류
