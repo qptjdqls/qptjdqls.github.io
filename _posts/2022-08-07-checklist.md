@@ -23,13 +23,19 @@ categories: etc
 
 ---
 
-- **ICE BOX**
+- **ICE BOX (<U>MAXLEN=5</U>)**
   - [ ] Law of total ... 시리즈 정리
+  - [ ] [Batch normalization](https://gaussian37.github.io/dl-concept-batchnorm/)
   - [ ] [How to study RL](https://github.com/reinforcement-learning-kr/how_to_study_rl)
+  - [ ] reparametrization trick
   - [ ] David Silver lecture
+  
+- **FREEZER (<U>MAXLEN=10</U>)**
   - [ ] ICML 2022 review
   - [ ] Information Geometry
   - [ ] AlphaGo Zero
+
+---
 
 - 2022/08/07
   - [x] 블로그에 checklist 작성
@@ -45,6 +51,7 @@ categories: etc
 - 2022/08/08
   - [x] Denoising network 결과 정리
   - [ ] InfoGAN 논문 review
+    -  앞으로 review code 작성할 때 눈으로 먼저 코드 전체 동작 구조 확인
   - [ ] CycleGAN 논문 review
 - 2022/08/09
   - [x] [github.io 에 mathjax 추가](http://csega.github.io/mypost/2017/03/28/how-to-set-up-mathjax-on-jekyll-and-github-properly.html)
@@ -52,3 +59,4 @@ categories: etc
     - p_{data} => $p_{data}$ / p _{data} => $p _{data}$
     - p(x|y) => $p(x|y)$ / p(x\|y) => $p(x\|y)$
   - [ ] github.io 의 이미지 상대경로 오류
+  - [x] ice box, freezer, maxlen 추가
