@@ -62,6 +62,7 @@ categories: etc
     - p(x|y) => $p(x|y)$ / p(x\|y) => $p(x\|y)$
   - [x] github.io 의 이미지 상대경로 오류
     - html 문법 이용하면 오류 발생 (이유 모르겠음)
+    - permalink 설정 필요
     - image center align css 추가
   - [x] ice box, freezer, maxlen 추가
 - 2022/08/10
