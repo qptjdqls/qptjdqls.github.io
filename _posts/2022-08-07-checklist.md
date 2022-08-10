@@ -49,8 +49,8 @@ permalink: /0
   - [x] 블로그에 checklist 작성
   - [x] John Schulman 트위터 팔로우
   - [ ] 누워서 하는 운동 정하기 (하나씩 추가)
-    - [ ] [브릿지](https://brunch.co.kr/@tenbody/1486)
-    - [ ] [레그레이즈](https://brunch.co.kr/@tenbody/1486)
+    - [x] [브릿지](https://brunch.co.kr/@tenbody/1486)
+    - [x] [레그레이즈](https://brunch.co.kr/@tenbody/1486)
   - [ ] ~~InfoGAN 논문 review~~
   - [x] 새로운 Denoising network 로 sample 생성
   - [x] 쉬운 condition 의 simulation 이미지로 unmixing 실험
