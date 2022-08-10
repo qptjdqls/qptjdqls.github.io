@@ -26,15 +26,17 @@ permalink: /0
 
 - **ICE BOX (<U>MAXLEN=5</U>)**
   - [ ] Law of total ... 시리즈 정리
-  - [ ] [Batch normalization](https://gaussian37.github.io/dl-concept-batchnorm/)
-  - [ ] [How to study RL](https://github.com/reinforcement-learning-kr/how_to_study_rl)
-  - [ ] Reparametrization trick
   - [ ] David Silver lecture
+  - [ ] [InfoGAN 논문 재작성](https://www.inference.vc/infogan-variational-bound-on-mutual-information-twice/)
+    - uppder bound of mutual information
+    - [On Information Theoretic Bounds for SGD](https://www.inference.vc/on-information-theoretic-bounds-for-sgd/)
+    - [openai code](https://github.com/openai/InfoGAN/blob/master/infogan/algos/infogan_trainer.py)
   
 - **FREEZER (<U>MAXLEN=10</U>)**
   - [ ] ICML 2022 review
   - [ ] Information Geometry
   - [ ] AlphaGo Zero
+  - [ ] Multi armed bandit
 
 - **COMPLETE**
 
@@ -68,4 +70,6 @@ permalink: /0
   - [x] ice box, freezer, maxlen 추가
 - 2022/08/10
   - [ ] Information theory book 정리
-  - [ ] InfoGAN 논문 재확인
+  - [ ] [Batch normalization](https://gaussian37.github.io/dl-concept-batchnorm/)
+  - [ ] [How to study RL](https://github.com/reinforcement-learning-kr/how_to_study_rl)
+  - [ ] Reparametrization trick
