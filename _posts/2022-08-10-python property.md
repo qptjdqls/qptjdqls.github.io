@@ -1,12 +1,12 @@
 ---
 layout: post
-title: @property
+title: python property
 date: 2022-08-10 11:59:59 +0900
 categories: etc
 permalink: /3
 ---
 
-# @property
+# python property
 
 ## 원본 글: [https://blog.naver.com/codeitofficial](https://blog.naver.com/codeitofficial/221684462326)
 
