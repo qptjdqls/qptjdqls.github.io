@@ -60,8 +60,9 @@ categories: etc
   - [x] github.io 의 latex 문법 오류
     - p_{data} => $p_{data}$ / p _{data} => $p _{data}$
     - p(x|y) => $p(x|y)$ / p(x\|y) => $p(x\|y)$
-  - [ ] github.io 의 이미지 상대경로 오류
+  - [x] github.io 의 이미지 상대경로 오류
     - html 문법 이용하면 오류 발생 (이유 모르겠음)
+    - image center align css 추가
   - [x] ice box, freezer, maxlen 추가
 - 2022/08/10
   - [ ] Information theory book 정리
