@@ -1,8 +1,9 @@
 ---
 layout: post
-title: checklist
+title: Checklist
 date: 2022-08-07 14:06:00 +0900
 categories: etc
+permalink: /0
 ---
 0. What did you do during all day?
    - 하루 동안 한 일 자세하게 작성
