@@ -27,6 +27,8 @@ permalink: /0
 - **ICE BOX (<U>MAXLEN=5</U>)**
   - [ ] Law of total ... 시리즈 정리
   - [ ] David Silver lecture
+  - [ ] [VAE, reparametrization trick](https://jaejunyoo.blogspot.com/2017/04/auto-encoding-variational-bayes-vae-1.html)
+    - [PR-010: Auto-Encoding Variational Bayes, ICLR 2014](https://www.youtube.com/watch?v=KYA-GEhObIs&list=PLlMkM4tgfjnJhhd4wn5aj8fVTYJwIpWkS&index=12)
   - [ ] [InfoGAN 논문 재작성](https://www.inference.vc/infogan-variational-bound-on-mutual-information-twice/)
     - uppder bound of mutual information
     - [On Information Theoretic Bounds for SGD](https://www.inference.vc/on-information-theoretic-bounds-for-sgd/)
@@ -37,6 +39,7 @@ permalink: /0
   - [ ] Information Geometry
   - [ ] AlphaGo Zero
   - [ ] Multi armed bandit
+  - [ ] [Self-Normalizing Neural Networks](https://arxiv.org/abs/1706.02515)
 
 - **COMPLETE**
 
@@ -72,4 +75,4 @@ permalink: /0
   - [ ] Information theory book 정리
   - [ ] [Batch normalization](https://gaussian37.github.io/dl-concept-batchnorm/)
   - [ ] [How to study RL](https://github.com/reinforcement-learning-kr/how_to_study_rl)
-  - [ ] Reparametrization trick
+  
