@@ -28,7 +28,7 @@ permalink: /0
   - [ ] Law of total ... 시리즈 정리
   - [ ] [Batch normalization](https://gaussian37.github.io/dl-concept-batchnorm/)
   - [ ] [How to study RL](https://github.com/reinforcement-learning-kr/how_to_study_rl)
-  - [ ] reparametrization trick
+  - [ ] Reparametrization trick
   - [ ] David Silver lecture
   
 - **FREEZER (<U>MAXLEN=10</U>)**
