@@ -35,6 +35,8 @@ categories: etc
   - [ ] Information Geometry
   - [ ] AlphaGo Zero
 
+- **COMPLETE**
+
 ---
 
 - 2022/08/07
@@ -50,9 +52,9 @@ categories: etc
   - [x] 빨래
 - 2022/08/08
   - [x] Denoising network 결과 정리
-  - [ ] InfoGAN 논문 review
+  - [x] InfoGAN 논문 review
     -  앞으로 review code 작성할 때 눈으로 먼저 코드 전체 동작 구조 확인
-  - [ ] CycleGAN 논문 review
+  - [ ] ~~CycleGAN 논문 review~~
 - 2022/08/09
   - [x] [github.io 에 mathjax 추가](http://csega.github.io/mypost/2017/03/28/how-to-set-up-mathjax-on-jekyll-and-github-properly.html)
   - [x] github.io 의 latex 문법 오류
@@ -60,3 +62,6 @@ categories: etc
     - p(x|y) => $p(x|y)$ / p(x\|y) => $p(x\|y)$
   - [ ] github.io 의 이미지 상대경로 오류
   - [x] ice box, freezer, maxlen 추가
+- 2022/08/10
+  - [ ] Information theory book 정리
+  - [ ] InfoGAN 논문 재확인
