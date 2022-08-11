@@ -45,6 +45,7 @@ permalink: /0
 
 - **COMPLETE**
   - [x] Batch normalization
+  - [x] [How to study RL](https://github.com/reinforcement-learning-kr/how_to_study_rl)
 
 ---
 
@@ -83,7 +84,7 @@ permalink: /0
 - 2022/08/10
   - [ ] Information theory book 정리
   - [x] [Batch normalization](https://gaussian37.github.io/dl-concept-batchnorm/)
-  - [ ] [How to study RL](https://github.com/reinforcement-learning-kr/how_to_study_rl)
+  - [x] [How to study RL](https://github.com/reinforcement-learning-kr/how_to_study_rl)
 - 2022/08/11
   - [ ] Central limit theorem
   - [ ] Law of total ... 시리즈 정리
