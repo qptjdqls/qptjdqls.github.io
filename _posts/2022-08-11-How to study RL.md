@@ -194,7 +194,7 @@ permalink: /5
 
 4. 구현
    - 블로그나 다른 사람이 구현한 github 코드들은 틀릴 수 있으니 참고한 한다 <br/>
-상세 내용은 [원본 글](https://github.com/reinforcement-learning-kr/how_to_study_rl) 참조
+상세 내용은 [원본 글](https://github.com/reinforcement-learning-kr/how_to_study_rl) 참조 <br/>
 
 ---
 
