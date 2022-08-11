@@ -35,6 +35,7 @@ permalink: /0
     - [openai code](https://github.com/openai/InfoGAN/blob/master/infogan/algos/infogan_trainer.py)
   
 - **FREEZER (<U>MAXLEN=10</U>)**
+  - [ ] 악어책
   - [ ] ICML 2022 review
   - [ ] Information Geometry
   - [ ] AlphaGo Zero
@@ -44,10 +45,14 @@ permalink: /0
 - **COMPLETE**
 
 ---
+|1|2|3|4|5|6|7|8|9|10|
+|---|---|---|---|---|---|---|---|---|---|
+|John Schulman|OpenAI|DeepMind|NeurIPS|Ian Goodfellow|Andrew Ng|ICML|ICLR|-|-|
+---
 
 - 2022/08/07
   - [x] 블로그에 checklist 작성
-  - [x] John Schulman 트위터 팔로우
+  - [x] 트위터 팔로우
   - [ ] 누워서 하는 운동 정하기 (하나씩 추가)
     - [x] [브릿지](https://brunch.co.kr/@tenbody/1486)
     - [x] [레그레이즈](https://brunch.co.kr/@tenbody/1486)
@@ -75,4 +80,5 @@ permalink: /0
   - [ ] Information theory book 정리
   - [ ] [Batch normalization](https://gaussian37.github.io/dl-concept-batchnorm/)
   - [ ] [How to study RL](https://github.com/reinforcement-learning-kr/how_to_study_rl)
-  
+- 2022/08/11
+  - [ ]
