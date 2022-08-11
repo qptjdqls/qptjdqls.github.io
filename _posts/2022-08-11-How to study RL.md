@@ -190,13 +190,13 @@ permalink: /5
    - ICLR 등 논문에 대한 리뷰가 공개되어있느 논문의 경우, 논문을 읽은 후 리뷰를 보면서 논문을 좀 더 비판적으로 보는 방법을 기를 수 있다
 
 3. 환경
-상세 내용은 [원본 글](https://github.com/reinforcement-learning-kr/how_to_study_rl) 참조
+상세 내용은 [원본 글](https://github.com/reinforcement-learning-kr/how_to_study_rl) 참조 <br/>
 
 4. 구현
-   - 블로그나 다른 사람이 구현한 github 코드들은 틀릴 수 있으니 참고한 한다
+   - 블로그나 다른 사람이 구현한 github 코드들은 틀릴 수 있으니 참고한 한다 <br/>
 상세 내용은 [원본 글](https://github.com/reinforcement-learning-kr/how_to_study_rl) 참조
 
 ---
 
 ## 강화학습 관련 자료
-상세 내용은 [원본 글](https://github.com/reinforcement-learning-kr/how_to_study_rl) 참조
+상세 내용은 [원본 글](https://github.com/reinforcement-learning-kr/how_to_study_rl) 참조 <br/>
