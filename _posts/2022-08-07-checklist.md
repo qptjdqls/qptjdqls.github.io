@@ -45,10 +45,13 @@ permalink: /0
 
 - **COMPLETE**
   - [x] Batch normalization
+
 ---
+
 |1|2|3|4|5|6|7|8|9|10|
 |---|---|---|---|---|---|---|---|---|---|
 |John Schulman|OpenAI|DeepMind|NeurIPS|Ian Goodfellow|Andrew Ng|ICML|ICLR|-|-|
+
 ---
 
 - 2022/08/07
