@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Checklist
+title: checklist
 date: 2022-08-07 14:06:00 +0900
 categories: etc
 permalink: /0
@@ -25,7 +25,7 @@ permalink: /0
 ---
 
 - **ICE BOX (<U>MAXLEN=5</U>)**
-  - [ ] Law of total ... 시리즈 정리
+  - [ ] Importance sampling
   - [ ] David Silver lecture
   - [ ] [VAE, reparametrization trick](https://jaejunyoo.blogspot.com/2017/04/auto-encoding-variational-bayes-vae-1.html)
     - [PR-010: Auto-Encoding Variational Bayes, ICLR 2014](https://www.youtube.com/watch?v=KYA-GEhObIs&list=PLlMkM4tgfjnJhhd4wn5aj8fVTYJwIpWkS&index=12)
@@ -36,6 +36,7 @@ permalink: /0
   
 - **FREEZER (<U>MAXLEN=10</U>)**
   - [ ] 악어책
+  - [ ] Inverse RL
   - [ ] ICML 2022 review
   - [ ] Information Geometry
   - [ ] AlphaGo Zero
@@ -43,7 +44,7 @@ permalink: /0
   - [ ] [Self-Normalizing Neural Networks](https://arxiv.org/abs/1706.02515)
 
 - **COMPLETE**
-
+  - [x] Batch normalization
 ---
 |1|2|3|4|5|6|7|8|9|10|
 |---|---|---|---|---|---|---|---|---|---|
@@ -78,7 +79,8 @@ permalink: /0
   - [x] ice box, freezer, maxlen 추가
 - 2022/08/10
   - [ ] Information theory book 정리
-  - [ ] [Batch normalization](https://gaussian37.github.io/dl-concept-batchnorm/)
+  - [x] [Batch normalization](https://gaussian37.github.io/dl-concept-batchnorm/)
   - [ ] [How to study RL](https://github.com/reinforcement-learning-kr/how_to_study_rl)
 - 2022/08/11
-  - [ ]
+  - [ ] Central limit theorem
+  - [ ] Law of total ... 시리즈 정리
