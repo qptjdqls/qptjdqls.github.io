@@ -47,6 +47,7 @@ permalink: /0
 - **COMPLETE**
   - [x] Batch normalization
   - [x] [How to study RL](https://github.com/reinforcement-learning-kr/how_to_study_rl)
+  - [x] Central limit theorem 
 
 ---
 
@@ -87,7 +88,7 @@ permalink: /0
   - [x] Batch normalization
   - [x] [How to study RL](https://github.com/reinforcement-learning-kr/how_to_study_rl)
 - 2022/08/11
-  - [ ] Central limit theorem
+  - [x] Central limit theorem
   - [ ] Law of total ... 시리즈 정리
 - 2022/08/12
   - [ ] Information theory book 정리
