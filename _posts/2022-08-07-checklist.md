@@ -5,6 +5,9 @@ date: 2022-08-07 14:06:00 +0900
 categories: etc
 permalink: /0
 ---
+
+# checklist
+
 0. What did you do during all day?
    - 하루 동안 한 일 자세하게 작성
 
@@ -26,7 +29,6 @@ permalink: /0
 
 - **ICE BOX (<U>MAXLEN=5</U>)**
   - [ ] Importance sampling
-  - [ ] David Silver lecture
   - [ ] [VAE, reparametrization trick](https://jaejunyoo.blogspot.com/2017/04/auto-encoding-variational-bayes-vae-1.html)
     - [PR-010: Auto-Encoding Variational Bayes, ICLR 2014](https://www.youtube.com/watch?v=KYA-GEhObIs&list=PLlMkM4tgfjnJhhd4wn5aj8fVTYJwIpWkS&index=12)
   - [ ] [InfoGAN 논문 재작성](https://www.inference.vc/infogan-variational-bound-on-mutual-information-twice/)
@@ -35,7 +37,6 @@ permalink: /0
     - [openai code](https://github.com/openai/InfoGAN/blob/master/infogan/algos/infogan_trainer.py)
   
 - **FREEZER (<U>MAXLEN=10</U>)**
-  - [ ] 악어책
   - [ ] Inverse RL
   - [ ] ICML 2022 review
   - [ ] Information Geometry
@@ -82,9 +83,14 @@ permalink: /0
     - image center align css 추가
   - [x] ice box, freezer, maxlen 추가
 - 2022/08/10
-  - [ ] Information theory book 정리
-  - [x] [Batch normalization](https://gaussian37.github.io/dl-concept-batchnorm/)
+  - [ ] ~~Information theory book 정리~~
+  - [x] Batch normalization
   - [x] [How to study RL](https://github.com/reinforcement-learning-kr/how_to_study_rl)
 - 2022/08/11
   - [ ] Central limit theorem
   - [ ] Law of total ... 시리즈 정리
+- 2022/08/12
+  - [ ] Information theory book 정리
+  - Reinforcement learning
+    - [ ] David Silver lecture
+    - [ ] 수학으로 풀어보는 강화학습 원리와 알고리즘
