@@ -91,7 +91,14 @@ permalink: /0
   - [x] Central limit theorem
   - [ ] Law of total ... 시리즈 정리
 - 2022/08/12
-  - [ ] Information theory book 정리
+  - [ ] ~~Information theory book 정리~~
   - Reinforcement learning
+    - [ ] ~~David Silver lecture~~
+    - [ ] ~~수학으로 풀어보는 강화학습 원리와 알고리즘~~
+- 2022/08/13
+  - [ ] KLD, JSD 증명 정리
+- 2022/08/14
+  - [ ] **Information theory book 정리**
+  - **Reinforcement learning**
     - [ ] David Silver lecture
     - [ ] 수학으로 풀어보는 강화학습 원리와 알고리즘
