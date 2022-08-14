@@ -28,6 +28,7 @@ permalink: /0
 ---
 
 - **ICE BOX (<U>MAXLEN=5</U>)**
+  - [ ] https://sites.ualberta.ca/~szepesva/papers/RLAlgsInMDPs.pdf
   - [ ] Importance sampling
   - [ ] [VAE, reparametrization trick](https://jaejunyoo.blogspot.com/2017/04/auto-encoding-variational-bayes-vae-1.html)
     - [PR-010: Auto-Encoding Variational Bayes, ICLR 2014](https://www.youtube.com/watch?v=KYA-GEhObIs&list=PLlMkM4tgfjnJhhd4wn5aj8fVTYJwIpWkS&index=12)
