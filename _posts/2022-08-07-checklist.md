@@ -103,6 +103,8 @@ permalink: /0
   - **Reinforcement learning**
     - [ ] David Silver lecture
     - [ ] 수학으로 풀어보는 강화학습 원리와 알고리즘
+    - [ ] https://dibyaghosh.com/blog/probability/kldivergence.html
+    - [ ] https://theeluwin.postype.com/post/6080524
 - 2022/08/15
   - [ ] 도서관 책 반납
   
