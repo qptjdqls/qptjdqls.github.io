@@ -39,6 +39,7 @@ permalink: /0
 - **FREEZER (<U>MAXLEN=10</U>)**
   - [ ] Inverse RL
   - [ ] ICML 2022 review
+  - [ ] Effective Python
   - [ ] Information Geometry
   - [ ] AlphaGo Zero
   - [ ] Multi armed bandit
@@ -102,3 +103,6 @@ permalink: /0
   - **Reinforcement learning**
     - [ ] David Silver lecture
     - [ ] 수학으로 풀어보는 강화학습 원리와 알고리즘
+- 2022/08/15
+  - [ ] 도서관 책 반납
+  
