@@ -107,5 +107,8 @@ John Schulman, OpenAI, DeepMind, NeurIPS, Ian Goodfellow, Andrew Ng, ICML, ICLR
     - [ ] https://dibyaghosh.com/blog/probability/kldivergence.html
     - [ ] https://theeluwin.postype.com/post/6080524
 - 2022/08/15
-  - [ ] 도서관 책 반납
+  - [x] 도서관 책 반납
+  - [ ] David Silver lecture 2
+- 2022/08/16
+  - [ ] Deep infomax
   
