@@ -88,7 +88,7 @@ $P _{s,s'}^\pi = \sum _{a\in A} \pi(a\|s) P _{s,s'}^a$ <br>
 $R _s^\pi = \sum _{a\in A} \pi(a\|s) R _s^a$ <br>
 
 **Value function** <br>
-The state-value function $v _\pi (s)$ of an MDP is the expected return starting from state $s$, and then following policy $pi$ <br>
+The state-value function $v _\pi (s)$ of an MDP is the expected return starting from state $s$, and then following policy $\pi$ <br>
 $v _\pi (s) = E _{\pi}[G _t \| S _t=s]$ <br>
 The action-value function $q _\pi (s, a)$ is the expected return starting from state $s$, taking action $a$, and then following policy $\pi$ <br>
 $q _{\pi}(s,a) = E _{\pi}[G _t\| S _t=s, A _t=a]$ <br>
@@ -105,26 +105,26 @@ $q _{\pi}(s,a) = R _s^a + \gamma \sum _{s'\in S}P _{ss'}^a \sum _{a'\in A} \pi(a
 
 **Optimal value function** <br>
 The optimal state-value function $v _* (s)$ is the maximum value funciton over all polices <br>
-$v _*(s)=\underset{\pi}{\max} v _{\pi} (s)$ <br>
+$v _* (s)=\underset{\pi}{\max} v _{\pi} (s)$ <br>
 The optimal action-value function $q _* (s)$ is the maximum value function over all polices <br>
-$q _*(s,a) = \underset{\pi}{\max} q _{\pi} (s,a)$ <br>
+$q _* (s,a) = \underset{\pi}{\max} q _{\pi} (s,a)$ <br>
 
 **Optimal Policy** <br>
 Define a partial ordering over polices <br>
 $\pi \geq \pi'$ if $v _\pi(s) \geq v _{\pi'}(s), \forall a$ <br>
 For any Markov Decision Process <br>
-There exists an optimal policy $\pi _*$ that is better than or equal to all other policies, $\pi _* \geq \pi, \forall \pi$ <br>
-All optimal policies achieve the optimal value function, $v _{\pi _*}(s)=v _*(s)$ <br>
-All optimal policies achieve the optimal action-value funciton, $q _{\pi _*}(s,a)=q _*(s,a)$ <br>
+There exists an optimal policy $\pi _\*$ that is better than or equal to all other policies, $\pi _\* \geq \pi, \forall \pi$ <br>
+All optimal policies achieve the optimal value function, $v _{\pi _\*}(s)=v _\*(s)$ <br>
+All optimal policies achieve the optimal action-value funciton, $q _{\pi _\*}(s,a)=q _\*(s,a)$ <br>
 
-**Bellman Optimality Equation for $V _{*}$** <br>
-$v _* (s) = \underset{a}{\max} q _*(s,a)$ <br>
-**Bellman Optimality Equation for $Q _{*}$** <br>
-$q _* (s,a) = R _s^a + \gamma \sum _{s'\in S}P _{ss'}^a v _*(s')$ <br>
-**Bellman Optimality Equation for $V _{*} (2)$** <br>
-$v _* (s) = \underset{a}{\max}R _s^a + \gamma \sum _{s'\in S}P _{ss'}^a v _*(s')$ <br>
-**Bellman Optimality Equation for $Q _{*}$ (2)** <br>
-$q _* (s, a) = R _s^a + \gamma \sum _{s'\in S}P _{ss'}^a \underset{a'}{\max} q _*(s',a')$ <br>
+**Bellman Optimality Equation for $V _{\*}$** <br>
+$v _\* (s) = \underset{a}{\max} q _\*(s,a)$ <br>
+**Bellman Optimality Equation for $Q _{\*}$** <br>
+$q _\* (s,a) = R _s^a + \gamma \sum _{s'\in S}P _{ss'}^a v _\*(s')$ <br>
+**Bellman Optimality Equation for $V _{\*} (2)$** <br>
+$v _\* (s) = \underset{a}{\max}R _s^a + \gamma \sum _{s'\in S}P _{ss'}^a v _\*(s')$ <br>
+**Bellman Optimality Equation for $Q _{\*}$ (2)** <br>
+$q _\* (s, a) = R _s^a + \gamma \sum _{s'\in S}P _{ss'}^a \underset{a'}{\max} q _\*(s',a')$ <br>
 
 **Solving the Bellman Optimality Equation** <br>
 Bellman optimality equation is non-linear <br>
@@ -147,3 +147,4 @@ Undiscounted, average reward MDPs <br>
 ### Questions
 
 Everything is talking about maximing the reward without explicitly considering about <u>risk or variance of returns of MDP</u> <br>
+Risk MDP 를 또다른 reward MDP 로 변환 하는 방법이 있고, 아니면 실제로 MDP 의 risk 나 variance 에 관한 연구도 있다. <br>
