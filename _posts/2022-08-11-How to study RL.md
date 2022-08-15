@@ -14,7 +14,31 @@ permalink: /5
 ## 우리는 어떻게 강화학습을 공부했는가
 * 나의 강화학습 공부 스토리
     - [ ] David Silver RL Course
+      - [x] Lecture 1
+      - [ ] Lecture 2
+      - [ ] Lecture 3
+      - [ ] Lecture 4
+      - [ ] Lecture 5
+      - [ ] Lecture 6
+      - [ ] Lecture 7
+      - [ ] Lecture 8
+      - [ ] Lecture 9
+      - [ ] Lecture 10
+      - [ ] Assignment
+      - [ ] Exam
     - [ ] 수학으로 풀어보는 강화학습 원리와 알고리즘
+      - [ ] pytorch 로 구현
+      - [ ] 1장 강화학습 수학
+      - [ ] 2장 강화학습 개념
+      - [ ] 3장 정책 그래디언트
+      - [ ] 4장 A2C
+      - [ ] 5장 A3C
+      - [ ] 6장 PPO
+      - [ ] 7장 DDPG
+      - [ ] 8장 SAC
+      - [ ] 9장 모델 기반 강화학습 기초
+      - [ ] 10장 로컬 모델 기반 강화학습
+    - [ ] https://sites.ualberta.ca/~szepesva/papers/RLAlgsInMDPs.pdf
     - [ ] Gitbook [Fundamental of Reinforcment Learning](https://dnddnjs.gitbooks.io/rl/content/)
     - [ ] [강화학습 대회](https://github.com/seungjaeryanlee/awesome-rl-competitions) 참여
     - [ ] John Schulmann 강의자료

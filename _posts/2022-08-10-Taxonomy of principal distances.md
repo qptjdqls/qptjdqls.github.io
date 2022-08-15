@@ -2,7 +2,7 @@
 layout: post
 title: Taxonomy of principal distances
 date: 2022-08-10 11:59:59 +0900
-categories: etc
+categories: DL
 permalink: /2
 ---
 
