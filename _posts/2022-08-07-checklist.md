@@ -50,12 +50,12 @@ permalink: /0
   - [x] Batch normalization
   - [x] [How to study RL](https://github.com/reinforcement-learning-kr/how_to_study_rl)
   - [x] Central limit theorem 
+  - [x] Law of total probability, expectation, and variance
 
 ---
 
-|1|2|3|4|5|6|7|8|9|10|
-|---|---|---|---|---|---|---|---|---|---|
-|John Schulman|OpenAI|DeepMind|NeurIPS|Ian Goodfellow|Andrew Ng|ICML|ICLR|-|-|
+Twitter list <br>
+John Schulman, OpenAI, DeepMind, NeurIPS, Ian Goodfellow, Andrew Ng, ICML, ICLR
 
 ---
 
@@ -91,7 +91,7 @@ permalink: /0
   - [x] [How to study RL](https://github.com/reinforcement-learning-kr/how_to_study_rl)
 - 2022/08/11
   - [x] Central limit theorem
-  - [ ] Law of total ... 시리즈 정리
+  - [x] Law of total ... 시리즈 정리
 - 2022/08/12
   - [ ] ~~Information theory book 정리~~
   - Reinforcement learning
