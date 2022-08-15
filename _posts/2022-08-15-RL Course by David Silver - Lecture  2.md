@@ -50,7 +50,7 @@ It is sometimes possible to use undiscounted Markov reward processes if all sequ
 
 **Value Function** <br>
 The value function $v(s)$ gives the long-term value of state $s$ <br>
-$The state value function $v(s)$ of an MRP is the expected return starting from state $s$ <br>
+The state value function $v(s)$ of an MRP is the expected return starting from state $s$ <br>
 $v(s)=E[G _t \| S _t =s]$ <br>
 
 **Bellman Equation for MRPs** <br>
@@ -95,7 +95,7 @@ $q _{\pi}(s,a) = E _{\pi}[G _t\| S _t=s, A _t=a]$ <br>
 
 **Bellman Expectation Equation** <br>
 $v _{\pi}(s) = E _{\pi}[R _{t+1} + \gamma v _{\pi}(S _{t+1}) \| S _t=s]$ <br>
-$q _{\pi}(s,a) = E _{\pi}[R _{t+1} + \gamma q_{\pi}(S _{t+1}, A _{t+1}) \| S _t=s, A _t=a]$ <br>
+$q _{\pi}(s,a) = E _{\pi}[R _{t+1} + \gamma q _{\pi}(S _{t+1}, A _{t+1}) \| S _t=s, A _t=a]$ <br>
 
 $v _\pi(s) = \sum _{a\in A} \pi(a\|s) q _\pi (s,a)$ <br>
 $q _\pi(s,a) = R _s^a + \gamma \sum _{s'\in S} P _{ss'}^a v _{\pi}(s')$ <br>
@@ -136,5 +136,14 @@ Value iteration, Policy iteration, Q-learning, Sarsa <br>
 
 ### Extensions to MDPs
 
-(next class)
+Infinite and continous MDPs <br>
+Partially obersvable MDPs <br>
+Undiscounted, average reward MDPs <br>
 
+(next class) <br>
+
+---
+
+### Questions
+
+Everything is talking about maximing the reward without explicitly considering about <u>risk or variance of returns of MDP</u> <br>
