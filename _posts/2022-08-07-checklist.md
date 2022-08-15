@@ -108,7 +108,7 @@ John Schulman, OpenAI, DeepMind, NeurIPS, Ian Goodfellow, Andrew Ng, ICML, ICLR
     - [ ] https://theeluwin.postype.com/post/6080524
 - 2022/08/15
   - [x] 도서관 책 반납
-  - [ ] David Silver lecture 2
+  - [x] David Silver lecture 2
 - 2022/08/16
   - [ ] Deep infomax
   
