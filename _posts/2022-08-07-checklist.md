@@ -80,6 +80,8 @@ John Schulman, OpenAI, DeepMind, NeurIPS, Ian Goodfellow, Andrew Ng, ICML, ICLR
   - [x] github.io 의 latex 문법 오류
     - p_{data} => $p_{data}$ / p _{data} => $p _{data}$
     - p(x|y) => $p(x|y)$ / p(x\|y) => $p(x\|y)$
+    - * -> \*
+    - image 경로에 포함된 space 는 %20 로 인코딩
   - [x] github.io 의 이미지 상대경로 오류
     - html 문법 이용하면 오류 발생 (이유 모르겠음)
     - permalink 설정 필요
@@ -111,4 +113,5 @@ John Schulman, OpenAI, DeepMind, NeurIPS, Ian Goodfellow, Andrew Ng, ICML, ICLR
   - [x] David Silver lecture 2
 - 2022/08/16
   - [ ] Deep infomax
+  - [ ] David Silver lecture 3
   
