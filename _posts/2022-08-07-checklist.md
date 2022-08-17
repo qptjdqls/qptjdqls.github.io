@@ -102,7 +102,7 @@ John Schulman, OpenAI, DeepMind, NeurIPS, Ian Goodfellow, Andrew Ng, ICML, ICLR
 - 2022/08/13
   - [ ] KLD, JSD 증명 정리
 - 2022/08/14
-  - [ ] **Information theory book 정리**
+  - [ ] ~~**Information theory book 정리**~~
   - **Reinforcement learning**
     - [x] David Silver lecture 1
     - [ ] 수학으로 풀어보는 강화학습 원리와 알고리즘
@@ -114,4 +114,6 @@ John Schulman, OpenAI, DeepMind, NeurIPS, Ian Goodfellow, Andrew Ng, ICML, ICLR
 - 2022/08/16
   - [ ] Deep infomax
   - [ ] David Silver lecture 3
-  
+- 2022/08/17
+  - [ ] 실험 결과 정리
+  - [ ] **Information theory book 정리**
