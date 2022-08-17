@@ -187,7 +187,7 @@ Train next value function $\hat{v}(\cdot, w _{k+1})$ using targets $\{<s, \tilde
   
 These questions are resolved by **contraction mapping theorem**
 
-
+ 
 
 ---
 
