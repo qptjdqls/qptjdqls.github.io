@@ -61,7 +61,7 @@ $v _{\pi} (s) = E[R _{t+1} + \gamma R _{t+2} + \dots]$ <br>
 $\pi' = greedy(v _{\pi})$ <br>
 Iterating improvement / evaluation. This process of policy iteration always converges to $\pi^{\*}$ <br>
 
-![](/public/img/2022-08-16-RL%20Course%20by%20David%20Silver%20-%20Lecture%203/1.jpg){: width="50%" height="50%"}{: .center}
+![](/public/img/2022-08-16-RLCoursebyDavidSilver-Lecture3/1.jpg){: width="50%" height="50%"}{: .center}
 
 Consider a deterministic policy, $a=\pi(s)$ <br>
 We can improve the policy by acting greedily <br>
@@ -125,7 +125,7 @@ Control | Bellman expectation equation + Greedy policy improvement | Policy iter
 Control | Bellman Optimality equation | Value iteration
 
 Algorithms are based on state-value function $v _{\pi}(s)$ or $v _{\*}(s)$<br>
-Complexcity $O(mn^2) per iteratoin, for $m$ actions and $n$ states <br>
+Complexcity $O(mn^2)$ per iteratoin, for $m$ actions and $n$ states <br>
 Could aso aply to action-value function $q _{\pi}(s,a)$ or $q _{\*}(s,a)$ <br>
 Complexity $O(m^2 n^2)$ per iteration <br>
 (more expensive version, but still used in **model-free prediction**) <br>

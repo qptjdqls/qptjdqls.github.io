@@ -24,6 +24,7 @@ permalink: /0
 |컴퓨터를 켰을 때|가장 먼저 blog 에 어떤 글이라도 작성|
 |누워서 핸드폰 볼때|누워서 하는 운동|
 |누워서 핸드폰 볼때|유명 연구/개발자 SNS 확인|
+|일어나자마자|물 마시기|
 
 ---
 
@@ -55,7 +56,7 @@ permalink: /0
 ---
 
 Twitter list <br>
-John Schulman, OpenAI, DeepMind, NeurIPS, Ian Goodfellow, Andrew Ng, ICML, ICLR
+John Schulman, OpenAI, DeepMind, NeurIPS, Ian Goodfellow, Andrew Ng, ICML, ICLR,
 
 ---
 
