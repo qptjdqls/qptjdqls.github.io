@@ -37,11 +37,12 @@ permalink: /0
     - uppder bound of mutual information
     - [On Information Theoretic Bounds for SGD](https://www.inference.vc/on-information-theoretic-bounds-for-sgd/)
     - [openai code](https://github.com/openai/InfoGAN/blob/master/infogan/algos/infogan_trainer.py)
+  - [ ] Effective Python
+
   
 - **FREEZER (<U>MAXLEN=10</U>)**
   - [ ] Inverse RL
   - [ ] ICML 2022 review
-  - [ ] Effective Python
   - [ ] Information Geometry
   - [ ] AlphaGo Zero
   - [ ] Multi armed bandit
@@ -113,8 +114,13 @@ John Schulman, OpenAI, DeepMind, NeurIPS, Ian Goodfellow, Andrew Ng, ICML, ICLR,
   - [x] 도서관 책 반납
   - [x] David Silver lecture 2
 - 2022/08/16
-  - [ ] Deep infomax
+  - [ ] ~~Deep infomax~~
   - [ ] David Silver lecture 3
+    - [ ] Contraction mapping
 - 2022/08/17
+  - [ ] ~~실험 결과 정리~~
+  - [ ] ~~**Information theory book 정리**~~
+- 2022/08/18
   - [ ] 실험 결과 정리
   - [ ] **Information theory book 정리**
+  - [ ] Deep infomax 외 논문 간단 정리
