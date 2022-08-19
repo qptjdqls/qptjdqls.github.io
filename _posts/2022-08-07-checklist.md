@@ -19,14 +19,14 @@ permalink: /0
 2. [Kurzgesagt](https://www.youtube.com/watch?v=75d_29QWELk)
    - easy situation 이 trigger 가 되게 해서 hard action 을 습관으로 만들수 있다. 
 
-|easy situation|hard action|
-|:---:|:---:|
-|컴퓨터를 켰을 때|가장 먼저 blog 에 어떤 글이라도 작성|
-|컴퓨터를 켰을 때|'Effective python' 에 대해 작은 분량이라도 정리|
-|컴퓨터를 켰을 때|'수학으로 풀어보는 강화학습' 에 대해 작은 분량이라도 정리|
-|누워서 핸드폰 볼때|누워서 하는 운동|
-|누워서 핸드폰 볼때|유명 연구/개발자 SNS 확인|
-|잠에서 깨면|가장 먼저 물 마시기|
+|situation|condition|hard action|
+|---|---|---|
+|컴퓨터를 켰을 때|가장 먼저|blog 에 어떤 글이라도 작성|
+|컴퓨터를 켰을 때|가장 먼저|'Effective python' 에 대해 작은 분량이라도 정리|
+|누웠을 때|핸드폰 보기 전에|'수학으로 풀어보는 강화학습' 보기|
+|누웠을 때|핸드폰 볼때|누워서 하는 운동|
+|누웠을 때|핸드폰 볼때|유명 연구/개발자 SNS 확인|
+|잠에서 깨면|핸드폰 보기 전에|일어나서 물 마시기|
 
 ---
 
