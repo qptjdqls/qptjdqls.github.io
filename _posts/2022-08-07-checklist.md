@@ -22,9 +22,11 @@ permalink: /0
 |easy situation|hard action|
 |:---:|:---:|
 |컴퓨터를 켰을 때|가장 먼저 blog 에 어떤 글이라도 작성|
+|컴퓨터를 켰을 때|'Effective python' 에 대해 작은 분량이라도 정리|
+|컴퓨터를 켰을 때|'수학으로 풀어보는 강화학습' 에 대해 작은 분량이라도 정리|
 |누워서 핸드폰 볼때|누워서 하는 운동|
 |누워서 핸드폰 볼때|유명 연구/개발자 SNS 확인|
-|일어나자마자|물 마시기|
+|잠에서 깨면|가장 먼저 물 마시기|
 
 ---
 
@@ -102,7 +104,7 @@ John Schulman, OpenAI, DeepMind, NeurIPS, Ian Goodfellow, Andrew Ng, ICML, ICLR,
     - [ ] ~~David Silver lecture~~
     - [ ] ~~수학으로 풀어보는 강화학습 원리와 알고리즘~~
 - 2022/08/13
-  - [ ] KLD, JSD 증명 정리
+  - [ ] ~~KLD, JSD 증명 정리~~
 - 2022/08/14
   - [ ] ~~**Information theory book 정리**~~
   - **Reinforcement learning**
@@ -115,12 +117,16 @@ John Schulman, OpenAI, DeepMind, NeurIPS, Ian Goodfellow, Andrew Ng, ICML, ICLR,
   - [x] David Silver lecture 2
 - 2022/08/16
   - [ ] ~~Deep infomax~~
-  - [ ] David Silver lecture 3
+  - [x] David Silver lecture 3
     - [ ] Contraction mapping
 - 2022/08/17
   - [ ] ~~실험 결과 정리~~
   - [ ] ~~**Information theory book 정리**~~
 - 2022/08/18
-  - [ ] 실험 결과 정리
+  - [x] 실험 결과 정리
   - [ ] **Information theory book 정리**
-  - [ ] Deep infomax 외 논문 간단 정리
+  - [ ] Deep infomax youtube 정리
+- 2022/08/19
+  - [ ] David Silver lecture 4
+  - [ ] KLD, JSD 증명 정리
+  - [x] Effective python - preface

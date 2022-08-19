@@ -61,7 +61,7 @@ $v _{\pi} (s) = E[R _{t+1} + \gamma R _{t+2} + \dots]$ <br>
 $\pi' = greedy(v _{\pi})$ <br>
 Iterating improvement / evaluation. This process of policy iteration always converges to $\pi^{\*}$ <br>
 
-![](/public/img/2022-08-16-RLCoursebyDavidSilver-Lecture3/1.jpg){: width="50%" height="50%"}{: .center}
+![](/public/img/2022-08-16-RLCoursebyDavidSilver-Lecture3/1.png){: width="50%" height="50%"}{: .center}
 
 Consider a deterministic policy, $a=\pi(s)$ <br>
 We can improve the policy by acting greedily <br>

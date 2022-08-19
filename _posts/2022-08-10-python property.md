@@ -2,7 +2,7 @@
 layout: post
 title: python property
 date: 2022-08-10 11:59:59 +0900
-categories: Python
+categories: python
 permalink: /3
 ---
 
