@@ -138,7 +138,7 @@ Sampling: update samples an expectation <br>
 $n=\infty$ is same as MC <br>
 
 **$n$-step return** <br>
-$G _t^{(n)}=R_{t+1}+\dots+\gamma^{n-1} R_{t+n}+\gamma ^n V(S _{t+n})$ <br>
+$G _t^{(n)}=R _{t+1}+\dots+\gamma^{n-1} R _{t+n}+\gamma ^n V(S _{t+n})$ <br>
 $n$-step temporal-difference learning <br>
 $V(S _t) \leftarrow V(S _t) + \alpha (G _t^{(n)} - V(S _t))$ <br>
 
