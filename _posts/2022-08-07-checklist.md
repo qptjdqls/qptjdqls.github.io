@@ -49,6 +49,7 @@ permalink: /0
   - [ ] ICML 2022 review
   - [ ] Information Geometry
     - [ ] https://franknielsen.github.io/
+    - [ ] https://www.youtube.com/watch?v=FlyJJIQo-g4&list=PLHZhjPByiV3L94AeJ9FcK1yrnRDOt3Vit
   - [ ] AlphaGo Zero
   - [ ] Multi armed bandit
   - [ ] [Self-Normalizing Neural Networks](https://arxiv.org/abs/1706.02515)
