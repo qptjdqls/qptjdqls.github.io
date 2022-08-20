@@ -48,6 +48,7 @@ permalink: /0
   - [ ] Inverse RL
   - [ ] ICML 2022 review
   - [ ] Information Geometry
+    - [ ] https://franknielsen.github.io/
   - [ ] AlphaGo Zero
   - [ ] Multi armed bandit
   - [ ] [Self-Normalizing Neural Networks](https://arxiv.org/abs/1706.02515)
