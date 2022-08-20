@@ -13,11 +13,11 @@ permalink: /5
 
 ## 우리는 어떻게 강화학습을 공부했는가
 * 나의 강화학습 공부 스토리
-    - [ ] David Silver RL Course
+    - [ ] David Silver RL Course & Gitbook [Fundamental of Reinforcment Learning](https://dnddnjs.gitbooks.io/rl/content/)
       - [x] Lecture 1
-      - [ ] Lecture 2
-      - [ ] Lecture 3
-      - [ ] Lecture 4
+      - [x] Lecture 2
+      - [x] Lecture 3
+      - [x] Lecture 4
       - [ ] Lecture 5
       - [ ] Lecture 6
       - [ ] Lecture 7
@@ -39,7 +39,6 @@ permalink: /5
       - [ ] 9장 모델 기반 강화학습 기초
       - [ ] 10장 로컬 모델 기반 강화학습
     - [ ] https://sites.ualberta.ca/~szepesva/papers/RLAlgsInMDPs.pdf
-    - [ ] Gitbook [Fundamental of Reinforcment Learning](https://dnddnjs.gitbooks.io/rl/content/)
     - [ ] [강화학습 대회](https://github.com/seungjaeryanlee/awesome-rl-competitions) 참여
     - [ ] John Schulmann 강의자료
     - [ ] UC berkely CS188

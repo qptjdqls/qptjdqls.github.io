@@ -29,6 +29,10 @@ permalink: /0
 |잠에서 깨면|핸드폰 보기 전에|일어나서 물 마시기|
 
 ---
+- **IN PROGRESS**
+  - David Silver lecture
+  - Gitbook [Fundamental of Reinforcment Learning](https://dnddnjs.gitbooks.io/rl/content/)
+  - Effective python
 
 - **ICE BOX (<U>MAXLEN=5</U>)**
   - [ ] https://sites.ualberta.ca/~szepesva/papers/RLAlgsInMDPs.pdf
@@ -39,8 +43,6 @@ permalink: /0
     - uppder bound of mutual information
     - [On Information Theoretic Bounds for SGD](https://www.inference.vc/on-information-theoretic-bounds-for-sgd/)
     - [openai code](https://github.com/openai/InfoGAN/blob/master/infogan/algos/infogan_trainer.py)
-  - [ ] Effective Python
-
   
 - **FREEZER (<U>MAXLEN=10</U>)**
   - [ ] Inverse RL
@@ -127,6 +129,12 @@ John Schulman, OpenAI, DeepMind, NeurIPS, Ian Goodfellow, Andrew Ng, ICML, ICLR,
   - [ ] **Information theory book 정리**
   - [ ] Deep infomax youtube 정리
 - 2022/08/19
-  - [ ] David Silver lecture 4
+  - [x] David Silver lecture 4
+    - [ ] Proof
   - [ ] KLD, JSD 증명 정리
   - [x] Effective python - preface
+- 2022/08/20
+  - [ ] [Gitbook](https://dnddnjs.gitbooks.io/rl/content/) reading chapter 1
+  - [ ] [Gitbook](https://dnddnjs.gitbooks.io/rl/content/) reading chapter 2
+  - [ ] [Gitbook](https://dnddnjs.gitbooks.io/rl/content/) reading chapter 3
+  - [ ] [Gitbook](https://dnddnjs.gitbooks.io/rl/content/) reading chapter 4

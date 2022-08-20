@@ -159,3 +159,33 @@ Like MC, can only be computed from complete episodes <br>
 Forward view provides theory <br>
 Backward view provides mechanism <br>
 Update online, every step, from incomplete sequences <br>
+
+**Eligibility traces** <br>
+![](/public/img/2022-08-19-RLCoursebyDavidSilver-Lecture4/1.png){: width="50%" height="50%"}{: .center}
+
+spike? <br>
+
+
+**Backward-view $TD(\lambda)$** <br>
+Keep an eligibility trace for every state $s$ <br>
+Update value $V(s)$ for every state $s$ <br>
+In proportion to TD-error $\delta _t$ and eligibility trace $E _t(s)$ <br>
+$\delta _t = R _{t+1} + \gamma V(S _{t+1}) - V(S _t)$ <br>
+$V(s) \leftarrow V(s) + \alpha \delta _t E _t (s)$ <br>
+
+**$TD(\lambda)$ and $TD(0)$** <br>
+When $\lambda = 0$, only current state is updated <br>
+$E _t(s) =1(S _t)$ <br>
+$V(s) \leftarrow V(s) + \alpha \delta _t (s)$ <br>
+This is exactly equivalent to $TD(0)$ update <br>
+$V(S _t)\leftarrow V(S _t) + \alpha \delta _t$ <br>
+
+When $\lambda=1$, credit is defferd until end of episode <br>
+Consider episodic environments with offline updates <br>
+Over the course of an episode, total update for $TD(1)$ is the same as total update for MC <br>
+
+> The sum of offline updates is identical for forward-view and backward-view $TD(\lambda)$ <br>
+> $\sum _{t=1}^T \alpha \delta_t E _t (s) = \sum _{t=1}^T \alpha (G _t ^\lambda - V(S _t)) 1 (S _t =s)$ <br>
+
+**Proof** <br>
+...
