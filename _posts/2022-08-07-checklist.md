@@ -137,10 +137,11 @@ John Schulman, OpenAI, DeepMind, NeurIPS, Ian Goodfellow, Andrew Ng, ICML, ICLR,
   - [ ] KLD, JSD 증명 정리
   - [x] Effective python - preface
 - 2022/08/20
-  - [ ] [Gitbook](https://dnddnjs.gitbooks.io/rl/content/) reading chapter 1
-  - [ ] [Gitbook](https://dnddnjs.gitbooks.io/rl/content/) reading chapter 2
-  - [ ] [Gitbook](https://dnddnjs.gitbooks.io/rl/content/) reading chapter 3
-  - [ ] [Gitbook](https://dnddnjs.gitbooks.io/rl/content/) reading chapter 4
+  - [x] [Gitbook](https://dnddnjs.gitbooks.io/rl/content/) reading chapter 1
+  - [x] [Gitbook](https://dnddnjs.gitbooks.io/rl/content/) reading chapter 2
+  - [x] [Gitbook](https://dnddnjs.gitbooks.io/rl/content/) reading chapter 3
+  - [x] [Gitbook](https://dnddnjs.gitbooks.io/rl/content/) reading chapter 4
 - 2022/08/21
   - [x] Effective python - chapter 1 (Better way 1~2)
-  - [ ] 
+  - [ ] [Gitbook](https://dnddnjs.gitbooks.io/rl/content/) reading chapter 5
+  - [ ] [Gitbook](https://dnddnjs.gitbooks.io/rl/content/) reading chapter 6
