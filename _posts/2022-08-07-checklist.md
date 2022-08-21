@@ -130,7 +130,7 @@ John Schulman, OpenAI, DeepMind, NeurIPS, Ian Goodfellow, Andrew Ng, ICML, ICLR,
 - 2022/08/18
   - [x] 실험 결과 정리
   - [ ] **Information theory book 정리**
-  - [ ] Deep infomax youtube 정리
+  - [x] Deep infomax youtube 정리
 - 2022/08/19
   - [x] David Silver lecture 4
     - [ ] Proof
