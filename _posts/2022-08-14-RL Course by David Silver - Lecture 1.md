@@ -108,3 +108,13 @@ RL is about decision making <br>
       - given a policy
     - control: optimize the future
       - find the best policy
+
+---
+
+## 원본 글: [Gitbook](https://dnddnjs.gitbooks.io/rl/content/reinforcement_learning.html)
+
+> Reinforcement learning is defined not by characterizing learning methods, but by characterizing a learning problem 
+
+[DP lecture](http://adpthu2014.weebly.com/slides--materials.html)
+[MDP book](https://www.wiley.com/en-sg/Markov+Decision+Processes%3A+Discrete+Stochastic+Dynamic+Programming-p-9780471727828)
+

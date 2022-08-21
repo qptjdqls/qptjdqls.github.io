@@ -197,4 +197,10 @@ These questions are resolved by **contraction mapping theorem**
    - [stackoverflow](https://stackoverflow.com/questions/20388453/global-minima-and-dynamic-programming) <br>
 
 
+---
+
+## 원본 글: [Gitbook](https://dnddnjs.gitbooks.io/rl/content/dynamic_programming_1.html)
+
+한 번의 evaluation + improvement = value iteration 이다.<br>
+$v _{k+1}(s) = \underset{a\in A}{\max} (R _s^a + \gamma \sum _{s'\in S} P _{ss'}^a v _k (s'))$ <br>
 

@@ -189,3 +189,63 @@ Over the course of an episode, total update for $TD(1)$ is the same as total upd
 
 **Proof** <br>
 ...
+
+
+---
+
+## 원본 글: [Gitbook](https://dnddnjs.gitbooks.io/rl/content/monte-carlo_methods.html)
+
+## MC learning
+
+### MC prediction <br>
+
+Incremental mean 에서 분모로 가있는 $N(S _t)$ 가 점점 무한대로 가게 되는데, 이를 $\alpha$ 로 고정시켜 놓으면 효과적으로 평균을 취할 수 있게 된다. <br>
+맨 처음 정보들에 대해서 가중치를 덜 주는 형태 (Complementary filter 에 대해 알면 이해가 쉬움) 라고 생각하면 된다. <br>
+이와 같은 이유는 강화학습이 stationary problem 이 아니기 때문이다. 매 episode 마다 새로운 policy 를 사용하기 때문에 non-stationary problem 이므로 update 하는 상수를 일정하게 고정하는 것이다. <br>
+$V(S _t) \leftarrow V(S _t) + \frac{1}{N(S _t)}(G _t-V(S _t))$ <br>
+$V(S _t) \leftarrow V(S _t) + \alpha(G _t - V(S _t))$ <br>
+
+
+### MC Control <br>
+
+**MC policy iteraion** <br>
+Policy evaluation 은 MC policy evaluation 을 이용해 진행할 수 있지만, policy improvement 에서 세 가지 문제가 발생하게 된다. <br>
+
+
+**MC Contorl** <br>
+(1) Value function <br>
+MC 를 사용한 이유는 model-free 를 하기 위함인데 value function 으로 policy 를 improve 하려면 MDP 의 모델을 알아야 한다. <br>
+아래와 같이 다음 policy 를 계산하려면 reward 와 transition probability 를 알아야 할 수 있다. <br>
+따라서 value function 대신에 action value function 을 사용해야 한다. <br>
+Greedy policy improvement over $V(s)$ requires model of MDP <br>
+$\pi'(s) = \underset{a\in A}{arg\max} R _s^a + P _{ss'}^a V(s')$ <br>
+Greedy policy improvement over $Q(s,a)$ is model-free <br>
+$\pi'(s)= \underset{a\in A}{arg\max} Q(s,a)$ <br>
+
+(2) Exploration <br>
+현재 policy improve 는 greedy policy improvement 를 사용하고 있는데, 이는 optimal 로 가는것이 아닌 local optimum 에 빠져버릴 수 있는 문제가 있다. <br>
+따라서 그에 대한 대안으로 epsilon greedy policy improvement 를 사용한다. <br>
+
+(3) Policy iteration <br>
+Policy iteration 에서는 evaluation 과정이 true value function 으로 수렴할 때까지 해야 하는데, 그렇게 하지 않고 한 번 evaluation 한 다음에 policy improve 를 해도 optimal 로 간다고 말했었다. <br>
+그것이 value iteration 이였는데 MC 에서도 마찬가지로 이 evaluation 과정을 줄임으로서 MC policy iteration 에서 MC control 이 된다. <br>
+
+![](/public/img/2022-08-19-RLCoursebyDavidSilver-Lecture4/2.png){: width="50%" height="50%"}{: .center}
+
+**GLIE** <br>
+tbd <br>
+
+---
+
+## 원본 글: [Gitbook](https://dnddnjs.gitbooks.io/rl/content/temporal_difference_methods.html)
+
+## TD learning
+
+... <br>
+
+## Eligibility Traces
+
+tbd <br>
+
+
+## TD control

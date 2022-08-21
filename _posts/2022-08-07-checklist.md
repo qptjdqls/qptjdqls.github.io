@@ -33,6 +33,7 @@ permalink: /0
   - David Silver lecture
   - Gitbook [Fundamental of Reinforcment Learning](https://dnddnjs.gitbooks.io/rl/content/)
   - Effective python
+  - 수학으로 풀어보는 강화학습 원리와 알고리즘
 
 - **ICE BOX (<U>MAXLEN=5</U>)**
   - [ ] https://sites.ualberta.ca/~szepesva/papers/RLAlgsInMDPs.pdf
@@ -113,7 +114,7 @@ John Schulman, OpenAI, DeepMind, NeurIPS, Ian Goodfellow, Andrew Ng, ICML, ICLR,
   - [ ] ~~**Information theory book 정리**~~
   - **Reinforcement learning**
     - [x] David Silver lecture 1
-    - [ ] 수학으로 풀어보는 강화학습 원리와 알고리즘
+    - [x] 수학으로 풀어보는 강화학습 원리와 알고리즘
     - [ ] https://dibyaghosh.com/blog/probability/kldivergence.html
     - [ ] https://theeluwin.postype.com/post/6080524
 - 2022/08/15

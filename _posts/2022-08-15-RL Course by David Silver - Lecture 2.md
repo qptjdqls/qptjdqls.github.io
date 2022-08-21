@@ -148,3 +148,38 @@ Undiscounted, average reward MDPs <br>
 
 Everything is talking about maximing the reward without explicitly considering about <u>risk or variance of returns of MDP</u> <br>
 Risk MDP 를 또다른 reward MDP 로 변환 하는 방법이 있고, 아니면 실제로 MDP 의 risk 나 variance 에 관한 연구도 있다. <br>
+
+
+---
+
+## 원본 글: [Gitbook](https://dnddnjs.gitbooks.io/rl/content/reinforcement_learning.html)
+
+강화학습이 기본적으로 MDP 로 정의 되는 문제를 풀기 때문에 state 는 Markov 라고 가정하고 접근한다. <br>
+하지만 절대적인 것은 아니며 **Non-Markovian MDP** 도 존재하며 그러한 문제를 풀기 위한 강화학습들도 있지만 상대적으로 연구가 덜 되었으며 처음에 접하기에는 적합하지 않다. <br>
+
+> 어떠한 문제를 강화학습으로 풀 수도 있고 다른 machine learning 기법으로 풀 수도 있기 때문에 강화학습을 적용시키기 전에 왜 강화학습을 써야하고 다른 머신러닝 기법에 비해서 나은 점이 무엇인가를 따져보고 사용해야 한다. <br>
+> **강화학습은 "시간"이라는 개념이 있는 문제를 푸는 인공지능 기법이다.** <br>
+> **이는 결국 강화학습의 목표가 Policy(일련의 행동들)이 된다는 의미를 함포한다.** <br>
+
+Agent 입장에서 다음 행동을 다음으로 가능한 state 들의 value funciton 으로 판단하는데, 그러려면 다음 state 들에 대한 정보를 다 알아야 하고 그 state 로 가려면 어떻게 해야하는지도 알아야 한다. <br>
+따라서 state 에 대한 value function 말고 action 에 대한 value funciton 을 구할 수 있는데 (action value function), 이를 사용하면 state value function 과 달리 단지 어떤 행동을 할지 action value function 의 값을 보고 판단하면 되기 때문에 다음 state 들의 value function 을 알고 어떤 행동을 했을 떄 거기게 도달하게 될 확률도 알아야하는 일이 사라진다. <br>
+
+---
+
+## 원본 글: [Gitbook](https://dnddnjs.gitbooks.io/rl/content/bellman_equation.html)
+
+보통 우리가 부르는 Bellman equation 은 뒤에서 언급될 DP 같이 discrete 한 time 에서의 최적화 문제에 적용되는 식을 의미한다 <br>
+하지만 시간이 연속적인 문제의 경우에는 (Hamilton-Jacobi-Bellman equation)[https://en.wikipedia.org/wiki/Bellman_equation] 이라고 부르는 식이 따로 존재한다. <br>
+
+미래의 값들(next state-value function) 으로 현재의 value function 을 구한다는 것이 Back-up 이다. <br>
+Backup 에는 one-step backup, multi-step backup 이 있고, 또한 Full-width backup 과 sample backup 이 있다. <br>
+Full-width backup 은 DP, sample backup 은 RL 이다. <br>
+
+The optimal state-value funciton $v _{\*}(s)$ is the maximum value funciton over all polices <br>
+$v _{\*}(s) = \underset{\pi}{\max} v _{\pi}(s)$ <br>
+The optimal action-value function $q _{\*}(s, a)$ is the maximum action-value function over all policies <br>
+$q _{\*}(s, a) = \underset{\pi}{\max} q _ {\pi}(s,a)$ <br>
+
+An optimal policy can be found by maximizing over $q _{\*} (s,a)$ <br>
+$\pi _{\*}(a \|s)= 1$ if $a=\underset{a\in A}{arg\max}q _{\*}(s,a)$ <br>
+$\pi _{\*}(a \|s)= 0$ otherwise <br>
