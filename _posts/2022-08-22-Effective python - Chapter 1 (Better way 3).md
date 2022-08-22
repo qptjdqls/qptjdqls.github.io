@@ -8,7 +8,7 @@ permalink: /15
 
 # 원본 글: 파이썬 코딩의 기술 개정2판
 
-# Effective python - Chapter 1 파이썬 답게 생각하기
+# Effective python - Chapter 1 파이썬 답게 생각하기 
 
 ## Better way 3 ```bytes``` 와 ```str``` 의 차이를 알아두라
 
