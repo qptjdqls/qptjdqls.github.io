@@ -143,10 +143,11 @@ John Schulman, OpenAI, DeepMind, NeurIPS, Ian Goodfellow, Andrew Ng, ICML, ICLR,
   - [x] [Gitbook](https://dnddnjs.gitbooks.io/rl/content/) reading chapter 4
 - 2022/08/21
   - [x] Effective python - chapter 1 (Better way 1~2)
-  - [ ] [Gitbook](https://dnddnjs.gitbooks.io/rl/content/) reading chapter 5
-  - [ ] [Gitbook](https://dnddnjs.gitbooks.io/rl/content/) reading chapter 6
+  - [x] [Gitbook](https://dnddnjs.gitbooks.io/rl/content/) reading chapter 5
+  - [x] [Gitbook](https://dnddnjs.gitbooks.io/rl/content/) reading chapter 6
 - 2022/08/22
   - [x] Effective python - chapter 1 (Better way 3)
   - [x] David Silver lecture 5
 - 2022/08/23
   - [ ] David Silver lecture 6
+  - [x] [Gitbook](https://dnddnjs.gitbooks.io/rl/content/) reading chapter 7

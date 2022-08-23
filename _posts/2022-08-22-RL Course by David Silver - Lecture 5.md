@@ -186,3 +186,41 @@ $Q(S, A)\leftarrow Q(S, A) + \alpha(R+\gamma \underset{a'}{\max} Q(S', a') - Q(S
 ![](/public/img/2022-08-22-RLCoursebyDavidSilver-Lecture5/6.png){: width="50%" height="50%"}{: .center} <br>
 
 ![](/public/img/2022-08-22-RLCoursebyDavidSilver-Lecture5/7.png){: width="50%" height="50%"}{: .center} <br>
+
+---
+
+## 원본 글: [Gitbook](https://dnddnjs.gitbooks.io/rl/content/q_learning.html)
+
+**On-policy vs Off-policy**<br>
+On-policy 에는 탐험의 문제라는 한계가 존재한다. <br>
+현재 알고있는 정보에 대해 greedy 로 policy 를 정해버리면 optimal 에 가지 못할 확률이 커지기 때문에 agent 는 항상 탐험이 필요하다. <br>
+따라서 on-policy 처럼 움직이는 policy 와 학습하는 policy 가 같은 것이 아니고 이 두개의 policy 를 분리시킨 것이 off-policy 이다. <br>
+
+Off-policy 는 다음과 같은 장점이 있다. <br>
+-다른 agent 나 사람을 관찰하고 그로부터 학습할 수 있다. <br>
+-이전의 policy들을 재활용하여 학습할 수 있다. <br>
+-탐험을 계속 하면서도 optimal 한 policy를 학습할 수 있다 (Q-learning) <br>
+-하나의 policy 를 따르면서 여러개의 policy 를 학습할 수 있다. <br>
+
+**Importance sampling** <br>
+$f(X)$ 라는 함수를 value function 이라고 생각하고 강화학습에서는 이 value function = expected future reward 를 계속 추정해나가는데 $P(X)$ 라는 현재 policy 로 형성된 distribution 으로부터 학습을 하고 있었다. <br>
+하지만 다른 $Q$ 라는 distribution 을 따르면서도 똑같이 학습할 수 있는데, 이때 아래와 같이 importance sampling 이 사용된다. <br>
+$E _{X\sim P}[f(X)] = E _{X\sim Q}[\frac{P(X)}{Q(X)}f(X)]$ <br>
+
+**Sarsa vs Q-learning** <br>
+"Cliff Walking" 예제를 통해 두 방식에 대해 비교해보자. <br>
+
+![](/public/img/2022-08-22-RLCoursebyDavidSilver-Lecture5/8.png){: width="50%" height="50%"}{: .center} <br>
+
+이 예제의 목표는 S 라는 start state 에서 시작해 Goal 까지 가는 optimal path 를 찾는 것이다. <br>
+Clif 에 빠지면 -100 dml reward 를 받고 time-step 마다 reward 를 -1 씩 받는다. <br>
+
+눈으로 딱 보면 그림에 있는 optimal path 가 정답인걸 알 수 있다. <br>
+Sarsa 와 Q-learning 모두 다 $\epsilon$-greedy 한 policy 로 움직인다. <br>
+따라서 더러는 cliff 에 빠져버리기도 한다. <br>
+차이는 Sarsa 는 on-policy 라서 그렇게 cliff 에 빠져버리는 결과로 인해 그 주변의 상태들의 value 를 낮다고 판다한다. <br>
+하지만 Q-learning 의 경우에는 비록 $\epsilon$-greedy 로 인해 cliff 에 빠져버릴지라도 자신이 직접 체험한 그 결과가 아니라 greedy 한 policy 로 인한 Q function 을 이용해서 업데이트한다. <br>
+따라서 cliff 근처의 길도 Q-learning 은 optimal path 라고 판단할 수 있어 해당 문제의 경우 sarsa 보다 Q-learning 이 적합하다고 할 수 있다. <br>
+
+Sarsa 에서 탐험을 위해 $\epsilon$-greedy 를 사용했지만 결국은 그로인해 정작 agent 가 optimal 로 수렴하지 못하는 현상들이 발생한 것이다. <br>
+따라서 Q-learning 의 등장 이후로 많은 문제에서 Q-learning 이 더 효율적으로 문제를 풀었기 때문에 강화학습에서 Q-learning 은 기본적인 알고리즘으로 자리를 잡게 된다. <br>

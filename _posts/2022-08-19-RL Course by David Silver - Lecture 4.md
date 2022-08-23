@@ -233,19 +233,25 @@ Policy iteration 에서는 evaluation 과정이 true value function 으로 수�
 ![](/public/img/2022-08-19-RLCoursebyDavidSilver-Lecture4/2.png){: width="50%" height="50%"}{: .center}
 
 **GLIE** <br>
-tbd <br>
+
+... <br>
 
 ---
 
 ## 원본 글: [Gitbook](https://dnddnjs.gitbooks.io/rl/content/temporal_difference_methods.html)
 
-## TD learning
-
-... <br>
 
 ## Eligibility Traces
 
-tbd <br>
+**Backward-veiw of TD($\lambda$)** <br>
+Forward-veiw 의 경우 원래 TD 의 장점이었던 time-step 마다 update 할 수 있다는 장점이 사라진다. <br>
+MC 의 장점을 살리면서 바로 바로 update 할 수 있는 방법을 찾기 위해 elgitibility trace 라는 개념이 나오게 된다. <br>
 
+과거에 있었던 일 중에서 현재 내가 받은 reward 에 기여한 것이 무엇일까 라는 credit assignment 문제에서 "얼마나 최근에 일어났던 일이었나"와 "얼마나 자주 발생했었나" 라는 것을 기준으로 과거의 일들을 기억해놓고 현재 받은 reward 를 과거의 state 들로 분배해주게 된다. <br>
 
-## TD control
+즉 TD(0) 처럼 현재의 value function 만 update 하는 것이 아니라, 과거에 지나왔던 모든 state 에 eligibility trace 를 기억해두었다가 그만큼 자신을 update 하게 된다. <br>
+따라서 현재의 경험을 통해 한 번에 과거의 모든 state 들의 value funciton 을 update 하게 되는 것이다. <br>
+현재 경험이 과거에 value function 에 얼마나 영향을 주고 싶은가는 $\lambdas$ 를 통해 조절할 수 있다. <br>
+
+Sarsa 또한 $n$-step Sarsa, forward-veiw Sarsa($\lambda$), backward-vew Sarsa($\lambda$) 가 존재한다.<br>
+Sarsa 는 model-free 이므로 action value  function 을 사용한다는 것을 제외하고는 위의 TD 와 동일한 방식으로 진행된다. <br>
