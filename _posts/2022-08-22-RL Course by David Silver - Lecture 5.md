@@ -207,7 +207,8 @@ $f(X)$ 라는 함수를 value function 이라고 생각하고 강화학습에서
 하지만 다른 $Q$ 라는 distribution 을 따르면서도 똑같이 학습할 수 있는데, 이때 아래와 같이 importance sampling 이 사용된다. <br>
 $E _{X\sim P}[f(X)] = E _{X\sim Q}[\frac{P(X)}{Q(X)}f(X)]$ <br>
 
-**Sarsa vs Q-learning** <br>
+**Sarsa vs Q-learning** <br> [참조](https://www.youtube.com/watch?v=Fj5HBT1vloU&list=PL_iJu012NOxehE8fdF9me4TLfbdv3ZW8g&index=12) <br>
+
 "Cliff Walking" 예제를 통해 두 방식에 대해 비교해보자. <br>
 
 ![](/public/img/2022-08-22-RLCoursebyDavidSilver-Lecture5/8.png){: width="50%" height="50%"}{: .center} <br>
