@@ -207,14 +207,15 @@ $f(X)$ 라는 함수를 value function 이라고 생각하고 강화학습에서
 하지만 다른 $Q$ 라는 distribution 을 따르면서도 똑같이 학습할 수 있는데, 이때 아래와 같이 importance sampling 이 사용된다. <br>
 $E _{X\sim P}[f(X)] = E _{X\sim Q}[\frac{P(X)}{Q(X)}f(X)]$ <br>
 
-**Sarsa vs Q-learning** <br> [참조](https://www.youtube.com/watch?v=Fj5HBT1vloU&list=PL_iJu012NOxehE8fdF9me4TLfbdv3ZW8g&index=12) <br>
+**Sarsa vs Q-learning** <br>
+[참조](https://www.youtube.com/watch?v=Fj5HBT1vloU&list=PL_iJu012NOxehE8fdF9me4TLfbdv3ZW8g&index=12) <br>
 
 "Cliff Walking" 예제를 통해 두 방식에 대해 비교해보자. <br>
 
 ![](/public/img/2022-08-22-RLCoursebyDavidSilver-Lecture5/8.png){: width="50%" height="50%"}{: .center} <br>
 
 이 예제의 목표는 S 라는 start state 에서 시작해 Goal 까지 가는 optimal path 를 찾는 것이다. <br>
-Clif 에 빠지면 -100 dml reward 를 받고 time-step 마다 reward 를 -1 씩 받는다. <br>
+Clif 에 빠지면 -100 의 reward 를 받고 time-step 마다 reward 를 -1 씩 받는다. <br>
 
 눈으로 딱 보면 그림에 있는 optimal path 가 정답인걸 알 수 있다. <br>
 Sarsa 와 Q-learning 모두 다 $\epsilon$-greedy 한 policy 로 움직인다. <br>

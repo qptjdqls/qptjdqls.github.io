@@ -251,7 +251,7 @@ MC 의 장점을 살리면서 바로 바로 update 할 수 있는 방법을 찾�
 
 즉 TD(0) 처럼 현재의 value function 만 update 하는 것이 아니라, 과거에 지나왔던 모든 state 에 eligibility trace 를 기억해두었다가 그만큼 자신을 update 하게 된다. <br>
 따라서 현재의 경험을 통해 한 번에 과거의 모든 state 들의 value funciton 을 update 하게 되는 것이다. <br>
-현재 경험이 과거에 value function 에 얼마나 영향을 주고 싶은가는 $\lambdas$ 를 통해 조절할 수 있다. <br>
+현재 경험이 과거에 value function 에 얼마나 영향을 주고 싶은가는 $\lambda$ 를 통해 조절할 수 있다. <br>
 
 Sarsa 또한 $n$-step Sarsa, forward-veiw Sarsa($\lambda$), backward-vew Sarsa($\lambda$) 가 존재한다.<br>
 Sarsa 는 model-free 이므로 action value  function 을 사용한다는 것을 제외하고는 위의 TD 와 동일한 방식으로 진행된다. <br>
