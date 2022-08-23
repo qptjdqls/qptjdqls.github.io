@@ -208,7 +208,8 @@ $f(X)$ 라는 함수를 value function 이라고 생각하고 강화학습에서
 $E _{X\sim P}[f(X)] = E _{X\sim Q}[\frac{P(X)}{Q(X)}f(X)]$ <br>
 
 **Sarsa vs Q-learning** <br>
-[참조](https://www.youtube.com/watch?v=Fj5HBT1vloU&list=PL_iJu012NOxehE8fdF9me4TLfbdv3ZW8g&index=12) <br>
+[참조](https://www.youtube.com/watch?v=Fj5HBT1vloU&list=PL_iJu012NOxehE8fdF9me4TLfbdv3ZW8g&index=12) 
+[참조](https://yashbonde.github.io/blogs/bartosutton/chap6.html) <br>
 
 "Cliff Walking" 예제를 통해 두 방식에 대해 비교해보자. <br>
 
@@ -224,5 +225,17 @@ Sarsa 와 Q-learning 모두 다 $\epsilon$-greedy 한 policy 로 움직인다. <
 하지만 Q-learning 의 경우에는 비록 $\epsilon$-greedy 로 인해 cliff 에 빠져버릴지라도 자신이 직접 체험한 그 결과가 아니라 greedy 한 policy 로 인한 Q function 을 이용해서 업데이트한다. <br>
 따라서 cliff 근처의 길도 Q-learning 은 optimal path 라고 판단할 수 있어 해당 문제의 경우 sarsa 보다 Q-learning 이 적합하다고 할 수 있다. <br>
 
-Sarsa 에서 탐험을 위해 $\epsilon$-greedy 를 사용했지만 결국은 그로인해 정작 agent 가 optimal 로 수렴하지 못하는 현상들이 발생한 것이다. <br>
-따라서 Q-learning 의 등장 이후로 많은 문제에서 Q-learning 이 더 효율적으로 문제를 풀었기 때문에 강화학습에서 Q-learning 은 기본적인 알고리즘으로 자리를 잡게 된다. <br>
+Sarsa 에서 탐험을 위해 $\epsilon$-greedy 를 사용했지만 결국은 그로인해 정작 agent 가 ~~optimal 로 수렴하지 못하는~~ 현상들이 발생한 것이다. <br>
+
+~~따라서 Q-learning 의 등장 이후로 많은 문제에서 Q-learning 이 더 효율적으로 문제를 풀었기 때문에 강화학습에서 Q-learning 은 기본적인 알고리즘으로 자리를 잡게 된다.~~ <br>
+
+---
+
+### Questions
+
+**Cliff walking problem 에서 $\epsilon$-greedy 이기 때문에 ($\epsilon$ 으로 인한 탐험 때문에) Sarsa 도 결국은 optimal policy 를 얻는거 아닌가?** <br>
+
+From Sutton's book <br>
+> Q-learning learns values for the optimal policy, that which travels right along the edge of the cliff. Unfortunately, this results in its occasionally falling off the cliff because of the “epsilon-greedy” action selection. SARSA, on the other hand, takes the action selection into account and learns the longer but safer path through the upper part of the grid. Although Q-learning actually learns the values of the optimal policy, its online performance is worse than that of SARSA, which learns the roundabout policy. Of course, if ϵ were gradually reduced, then both methods would asymptotically converge to the optimal policy. <br>
+
+왜 $\epsilon$ 이 줄어나가면 Sarsa 가 optimal policy 로 converge 하는 거지? <br>
