@@ -148,3 +148,5 @@ John Schulman, OpenAI, DeepMind, NeurIPS, Ian Goodfellow, Andrew Ng, ICML, ICLR,
 - 2022/08/22
   - [x] Effective python - chapter 1 (Better way 3)
   - [x] David Silver lecture 5
+- 2022/08/23
+  - [ ] David Silver lecture 6
