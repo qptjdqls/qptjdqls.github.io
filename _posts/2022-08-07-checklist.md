@@ -48,6 +48,7 @@ permalink: /0
     - [openai code](https://github.com/openai/InfoGAN/blob/master/infogan/algos/infogan_trainer.py)
   
 - **FREEZER (<U>MAXLEN=10</U>)**
+  - [ ] Kaggle
   - [ ] Inverse RL
   - [ ] ICML 2022 review
   - [ ] Information Geometry
@@ -163,4 +164,4 @@ John Schulman, OpenAI, DeepMind, NeurIPS, Ian Goodfellow, Andrew Ng, ICML, ICLR,
   - [ ] David Silver lecture 7
   - [ ] Build env for RL
     - [ ] [DQN tutorial](https://tutorials.pytorch.kr/intermediate/reinforcement_q_learning.html)
-    - [ ] [mario turtorial](https://tutorials.pytorch.kr/intermediate/mario_rl_tutorial.html)
+    - [ ] [Mario turtorial](https://tutorials.pytorch.kr/intermediate/mario_rl_tutorial.html)
