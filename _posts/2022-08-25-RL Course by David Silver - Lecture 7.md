@@ -1,6 +1,6 @@
 ---
 layout: post
-title: RL Course by David Silver - Lecture 6
+title: RL Course by David Silver - Lecture 7
 date: 2022-08-25 11:59:59 +0900
 categories: RL
 permalink: /18
