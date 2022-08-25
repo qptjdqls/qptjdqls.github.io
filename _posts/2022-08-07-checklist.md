@@ -38,6 +38,7 @@ permalink: /0
   - 수학으로 풀어보는 강화학습 원리와 알고리즘
 
 - **ICE BOX (<U>MAXLEN=5</U>)**
+  - [ ] [RL bootcamp](https://sites.google.com/view/deep-rl-bootcamp/lectures)
   - [ ] https://sites.ualberta.ca/~szepesva/papers/RLAlgsInMDPs.pdf
   - [ ] Importance sampling
   - [ ] [VAE, reparametrization trick](https://jaejunyoo.blogspot.com/2017/04/auto-encoding-variational-bayes-vae-1.html)
