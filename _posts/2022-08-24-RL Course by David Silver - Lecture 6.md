@@ -142,6 +142,7 @@ Given experience consisiting of $<state, value>$ pairs <br>
 $D={<s _1, v _1^{\pi}>, \dots, <s _t, v _T^{\pi}>}$ <br>
 Repeat: <br>
 -Sample state, value from experience, <br>
+$<s,v^{\pi}>\sim D$ <br>
 -Apply SGD update <br>
 $\Delta w = \alpha(v ^{\pi}-\hat{v}(s,w))\nabla _w \hat{v}(s,w)$ <br>
 Converges to least squares solution <br>
@@ -152,7 +153,7 @@ DQN uses **experience replay** and **fixed Q-targets** <br>
 
 앞서 봤듯이 Sarsa 나 TD 는 blow up 할 수 있는 문제가 존재하는데 DQN 은 그것을 해결하고 stable 하게 학습했다는 것이 contribution 이다. <br>
 학습을 stable 하게 만든 두 trick 은 experience replay 와 fixed Q-targets 이다. <br>
-Experience replay 는 trajectory 를 decorrelate 하기 때문에 (기존에는 highly correlated 된 연속된 state action path 를 보는 반명 experience replay 는 order 를 randomize 하여 decorrelate 시킴) 더욱 stable 한 update 를 진행할 수 있다. <br>
+Experience replay 는 trajectory 를 decorrelate 하기 때문에 (기존에는 highly correlated 된 연속된 state action path 를 보는 반면 experience replay 는 order 를 randomize 하여 decorrelate 시킴) 더욱 stable 한 update 를 진행할 수 있다. <br>
 fixed Q-targets 는 policy network 와 별도의 bootstrapping 에 사용될 target network 를 만들고 해당 paramter 를 일정 iteration 동안 forzen 시켜서 일종의 Supervised learning 과 동일한 상황으로 학습시킨다. <br>
 일정 iteration 마다 target network 는 policy network 와 동일하게 업데이트 되는 과정을 반복한다. <br> 
 상세한 과정은 추후 정리 <br>
@@ -208,3 +209,28 @@ tbd <br>
 ### **Todo**
 - [ ] Gradient TD and the true gradient of projected Bellman error
 - [ ] Fixed Q-targets
+
+
+---
+
+## 원본 글: [Gitbook](https://dnddnjs.gitbooks.io/rl/content/value_function_approximator.html)
+
+**Gradient descent on RL** <br>
+
+Gradient Descent방법도 (1) Stochastic Gradient Descent(SGD)와 (2) Batch방법으로 나눌 수 있는데 위와 같이 (모든 state에서 true value function과의 error을 한 번에 함수로 잡아서 업데이트하는 방식은 Batch의 방식을 활용한 것으로서 step by step으로 업데이트하는 것이 아니고 한꺼번에 업데이트하는 것입니다.) <br>
+
+이전 trajectory(?), 이전 experience step 까지 batch 로 활용하여 sample efficient 하게 학습하겠다는 것이 batch RL. <br>
+
+위의 **Least squares prediction** 파트에서도 확인할 수 있듯이, experience 의 $<state, value>$ pair 는 같은 policy 에서 나왔다. <br>
+
+**Q: 그런데 DQN 에서 사용하는 experience replay 의 경우 이전 trajectory 와 현재 trajectory 는 다른 policy 를 기반으로 생성되었는데, 같은 batch 에서 sampling 해서 mean square error 방향으로 학습하는 것이 맞나?** <br>
+
+
+### Learning with funciton approximator
+
+**Example: [Mountain Car](https://see.stanford.edu/materials/aimlcs229/problemset4.pdf)** <br>
+
+문제의 정의는 다음과 같다. <br>
+정상을 제외한 모든 곳은 time step 마다 reward -1 씩 받게 된다. <br>
+따라서 최대한 빠른 시간 내에 goal 에 올라가는 것을 agent 는 목표로 하게 된다. <br>
+또한 바로 uphill 을 할 출력은 차에게 없다고 가정을 한다면 차가 왔다 갔다하면서 중력으로 가속 시켜서 올라가야 하기 때문에 문제가 어려워진다. <br>

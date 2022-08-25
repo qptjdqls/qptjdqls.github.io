@@ -38,9 +38,6 @@ permalink: /0
   - 수학으로 풀어보는 강화학습 원리와 알고리즘
 
 - **ICE BOX (<U>MAXLEN=5</U>)**
-  - [ ] Build env for RL
-    - [ ] [DQN tutorial](https://tutorials.pytorch.kr/intermediate/reinforcement_q_learning.html)
-    - [ ] [mario turtorial](https://tutorials.pytorch.kr/intermediate/mario_rl_tutorial.html)
   - [ ] https://sites.ualberta.ca/~szepesva/papers/RLAlgsInMDPs.pdf
   - [ ] Importance sampling
   - [ ] [VAE, reparametrization trick](https://jaejunyoo.blogspot.com/2017/04/auto-encoding-variational-bayes-vae-1.html)
@@ -160,6 +157,10 @@ John Schulman, OpenAI, DeepMind, NeurIPS, Ian Goodfellow, Andrew Ng, ICML, ICLR,
 - 2022/08/24
   - [x] David Silver lecture 6
     - [ ] Least squares policy iteration
+    - [ ] DQN experience replay
 - 2022/08/25
-  - [ ] [Gitbook](https://dnddnjs.gitbooks.io/rl/content/) reading chapter 8
+  - [x] [Gitbook](https://dnddnjs.gitbooks.io/rl/content/) reading chapter 8
   - [ ] David Silver lecture 7
+  - [ ] Build env for RL
+    - [ ] [DQN tutorial](https://tutorials.pytorch.kr/intermediate/reinforcement_q_learning.html)
+    - [ ] [mario turtorial](https://tutorials.pytorch.kr/intermediate/mario_rl_tutorial.html)
