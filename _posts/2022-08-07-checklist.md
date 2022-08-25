@@ -48,6 +48,7 @@ permalink: /0
     - [openai code](https://github.com/openai/InfoGAN/blob/master/infogan/algos/infogan_trainer.py)
   
 - **FREEZER (<U>MAXLEN=10</U>)**
+  - [ ] Meausre theory
   - [ ] Kaggle
   - [ ] Inverse RL
   - [ ] ICML 2022 review
@@ -161,7 +162,9 @@ John Schulman, OpenAI, DeepMind, NeurIPS, Ian Goodfellow, Andrew Ng, ICML, ICLR,
     - [ ] DQN experience replay question
 - 2022/08/25
   - [x] [Gitbook](https://dnddnjs.gitbooks.io/rl/content/) reading chapter 8
-  - [ ] David Silver lecture 7
+  - [x] David Silver lecture 7
+    - [ ] Policy gradient with eligibility traces
+    - [ ] Alternative policy gradietn direction
   - [ ] Build env for RL
     - [ ] [DQN tutorial](https://tutorials.pytorch.kr/intermediate/reinforcement_q_learning.html)
     - [ ] [Mario turtorial](https://tutorials.pytorch.kr/intermediate/mario_rl_tutorial.html)
