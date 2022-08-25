@@ -157,7 +157,7 @@ John Schulman, OpenAI, DeepMind, NeurIPS, Ian Goodfellow, Andrew Ng, ICML, ICLR,
 - 2022/08/24
   - [x] David Silver lecture 6
     - [ ] Least squares policy iteration
-    - [ ] DQN experience replay
+    - [ ] DQN experience replay question
 - 2022/08/25
   - [x] [Gitbook](https://dnddnjs.gitbooks.io/rl/content/) reading chapter 8
   - [ ] David Silver lecture 7

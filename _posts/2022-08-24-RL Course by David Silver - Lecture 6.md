@@ -223,7 +223,9 @@ Gradient Descent방법도 (1) Stochastic Gradient Descent(SGD)와 (2) Batch방�
 
 위의 **Least squares prediction** 파트에서도 확인할 수 있듯이, experience 의 $<state, value>$ pair 는 같은 policy 에서 나왔다. <br>
 
-**Q: 그런데 DQN 에서 사용하는 experience replay 의 경우 이전 trajectory 와 현재 trajectory 는 다른 policy 를 기반으로 생성되었는데, 같은 batch 에서 sampling 해서 mean square error 방향으로 학습하는 것이 맞나?** <br>
+~~**Q: 그런데 DQN 에서 사용하는 experience replay 의 경우 이전 trajectory 와 현재 trajectory 는 다른 policy 를 기반으로 생성되었는데, 같은 batch 에서 sampling 해서 mean square error 방향으로 학습하는 것이 맞나?**~~ <br>
+A: LS prediciton 에서 oracle value 가 같은 policy 에서 나온건데, 이는 DQN 의 target network 의 parameter 를 frozen 시키고 oracle 의 역할을 하고 있는 거라 문제가 없다. <br>
+아마 헷갈렸던 부분은 sampling 을 서로 다른 policy 에서 했는데, 그거를 고정된 policy 의 oracle 에 가깝게 만드는 것이 문제였던거 같은데, 애초에 샘플의 구성 요소가 $<s,a,r,s'>$ 라는 것을 생각해보면 
 
 
 ### Learning with funciton approximator
