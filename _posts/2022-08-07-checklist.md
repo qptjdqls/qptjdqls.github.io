@@ -65,6 +65,7 @@ permalink: /0
   - [x] [How to study RL](https://github.com/reinforcement-learning-kr/how_to_study_rl)
   - [x] Central limit theorem 
   - [x] Law of total probability, expectation, and variance
+  - [x] **논리적 사고와 추론**
 
 ---
 
@@ -170,6 +171,6 @@ John Schulman, OpenAI, DeepMind, NeurIPS, Ian Goodfellow, Andrew Ng, ICML, ICLR,
     - [ ] [DQN tutorial](https://tutorials.pytorch.kr/intermediate/reinforcement_q_learning.html)
     - [ ] [Mario turtorial](https://tutorials.pytorch.kr/intermediate/mario_rl_tutorial.html)
   - 2022/08/26
-    - [ ] **논리적 사고**
+    - [x] **논리적 사고와 추론**
     - [ ] David Silver lecture 8
     - [ ] [Gitbook](https://dnddnjs.gitbooks.io/rl/content/) reading chapter 10 (skipped chapter 9)
