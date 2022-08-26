@@ -203,7 +203,7 @@ $\nabla _{\theta} J(\theta) = E _{\pi _{\theta}}[\nabla _{\theta} \log \pi _{\th
 **Alternative policy gradient direction(1:23:49)** <br>
 ![](/public/img/2022-08-25-RLCoursebyDavidSilver-Lecture7/17.png){: width="50%" height="50%"}{: .center} <br>
 
-**DDPG(?)**
+**DPG(?)**
 
 **Natural policy gradient** <br>
 ![](/public/img/2022-08-25-RLCoursebyDavidSilver-Lecture7/18.png){: width="50%" height="50%"}{: .center} <br>
