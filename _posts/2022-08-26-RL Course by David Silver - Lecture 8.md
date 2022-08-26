@@ -65,13 +65,92 @@ Learning $s,a\to s'$ is a densitiy estiamtion problem <br>
 Pick loss function, e.g. MSE, KL divergence, ... <br>
 Find parameters $\eta$ that minimize empirical loss <br>
 
+**Examples of models** <br>
+-Table lookup model <br>
+-Linear expectation model <br>
+-Linear Gaussian model <br>
+-Gaussian process model <br>
+-Deep belif network model <br>
+
+**Table lookup model** <br>
+Model is an explicit MDP, $\hat{P}, \hat{R}$ <br>
+Count visits $N(s,a)$ to each state action pair <br>
+$\hat{P} _{s,s'}^a = \frac{1}{N(s,a)}\sum _{t=1}^T 1 (S _t, A _t, S _{t+1}=s,a,s')$ <br>
+$\hat{R} _{s,s'}^a = \frac{1}{N(s,a)}\sum _{t=1}^T 1 (S _t, A _t=s, a)R _t$ <br>
+Alternatively <br>
+-At each time-step $t$, record experience tuple $<S _t, A _t, R _{t+1}, S _{t+1}>$ <br>
+-To sample model, randomly pick tuple match $<s,a,\cdot, \cdot>$ <br>
+
+**AB Example** <br>
+
+![](/public/img/2022-08-26-RLCoursebyDavidSilver-Lecture8/2.png){: width="50%" height="50%"}{: .center} <br>
+
+**Planning with a model** <br>
+Given a model $M _n = <P _n, R _n>$ <br>
+Solve the MDP $<S, A, P _{\eta}, R _{\eta}>$ <br>
+Use favourite planning algorihtm <br>
+-Value iteration <br>
+-Policy iteration <br>
+-Tree search <br>
+
+**Sample-based planning** <br>
+A simple but powerful approach to planning <br>
+Use the model only to generate samples <br>
+**Sample** experience from model (agent 가 미래에 어떻게 될 지 상상하는 것으로 생각할 수도 있다) <br>
+$S _{t+1} \sim P _{\eta}(S _{t+1}\|S _t, A _t)$ <br>
+$R _{t+1} = R _{\eta}(R _{t=1}\|S _t, A _t)$ <br>
+Apply **model-free** RL to samples, e.g. <br>
+-MC control <br>
+-Sarsa <br>
+-Q-learning <br>
+Sample-based planning methods are often more efficient <br>
+
+**Back to the AB example** <br>
+
+![](/public/img/2022-08-26-RLCoursebyDavidSilver-Lecture8/3.png){: width="50%" height="50%"}{: .center} <br>
+Model 을 생성하고, 생성된 모델에서 sampling 을 하고, 해당 sample 을 이용해 model-free RL (여기서는 MC 를 이용) <br>
+
+**Planning with an inaccurate model** <br>
+Given an imperfect model $<P _{\eta}, R _{\eta}>\neq <P, R>$ <br>
+Performance of model-based RL is limited to optimal policy for approximate MDP $<S,A,P _{\eta}, R _{\eta}>$ <br>
+i.e. Model-based RL is only as good as the estimated model <br>
+When the model is inaccurate, planning process will compute a suboptimal policy <br>
+Solution 1: when model is wrong, use model-free RL <br>
+Soultion 2: reason explicity about model uncertainty (i.e. bayesian approach) <br>
+
 ---
 
 ### Integrated architectures
 
+**Real and simulated experience** <br>
+We consider two sources of experience <br>
+Real expereince sampled from environment (true MDP) <br>
+$S'\sim P _{s,s'}^a$ <br>
+$R = R _s ^a$ <br>
+Simulated experience sampled from model (approximate MDP) <br>
+$S' \sim P _{\eta}(S' \|S, A)$ <br>
+$R = R _{\eta}(R \|S, A)$ <br>
+
+**Integrating learning and plannin** <br>
+Model-based RL (using sample-based planning) <br>
+-learn a model from real experience <br>
+-plan value function (and/or policy) from simulated experience  <br>
+
+Dyna <br>
+-Learn a model from real experience <br>
+-Learn and plan value function (and/or policy) from real and simulated experience <br>
+
+**Dyna architecture** <br>
+![](/public/img/2022-08-26-RLCoursebyDavidSilver-Lecture8/4.png){: width="50%" height="50%"}{: .center} <br>
+
+**Dyna-Q algorithm** <br>
+![](/public/img/2022-08-26-RLCoursebyDavidSilver-Lecture8/5.png){: width="50%" height="50%"}{: .center} <br>
+
 ---
 
 ### Simulation-based search
+
+
 
 ---
 
