@@ -148,11 +148,107 @@ Dyna <br>
 
 ---
 
-### Simulation-based search
+### Simulation-based search (Focus on the *planning* part / How to plan effectively)
 
+**Forward search** <br>
+![](/public/img/2022-08-26-RLCoursebyDavidSilver-Lecture8/6.png){: width="50%" height="50%"}{: .center} <br>
 
+**Simulation-based search** <br>
+![](/public/img/2022-08-26-RLCoursebyDavidSilver-Lecture8/7.png){: width="50%" height="50%"}{: .center} <br>
+
+**Simulation-based search(2)** <br>
+Simulate episodes of experience from **now** with the model <br>
+$\{s _t^k, A _t^k, R _{t+1}^k, \dots, S _T^k\} _{k=1}^K \sim M _v$ <br>
+Apply model-free RL to simulated episodes <br>
+-MC control -> MC search <br>
+-Sarsa -> TD search <br>
+
+**Simple MC search** <br>
+Given a model $M _v$ and a simulation policy $\pi$ <br>
+For each action $a \in A$ <br>
+-Simulate $K$ episodes from current (real) state $s _t$ <br>
+$\{s _t, a, R _{t+1}^k, S _{t+1}^k, A _{t+1}^k, \dots, S _T^k\} _{k=1}^K \sim M _v, \pi$ <br>
+-Evaluate actions by mean reature (MC evaluation) <br>
+$Q (s _t, a) = \frac{1}{K} \sum _{k=1}^K G _t \overset{P}{\to}q _{\pi}(s _t, a)$ <br>
+Select current (real) action with maximum value <br>
+$a _t = \underset{a\in A}{arg \max} Q (s _t, a)$ <br>
+
+**MC tree search (evaluation)** <br>
+Given a model $M _v$ <br>
+Simulate $K$ episodes from current state $s _t$ using current simulation policy $\pi$ <br>
+이전과 다른점은 policy $\pi$ 가 진행될수록 improve 될 것이라는 것이다(?). <br>
+$\{s _t, A _t^k, R _{t+1}^k, S _{t+1}^k, \dots, S _T^k\} _{k=1}^K \sim M _v, \pi$ <br>
+Build a search tree containing visited states and actions <br>
+Evaluate states $Q(s,a)$ by mean return of episodese from $s,a$ <br>
+$Q(s,a)=\frac{1}{N(s,a)}\sum _{k=1}^K \sum _{u=t} ^T 1 (S _u, A _u=s,a)G _u \overset{P}{\to} q _{\pi}(s,a)$ <br>
+이전 방식은 root action value function 만 업데이트 하는 반면, MCTS 의 경우 ~~epsiode 경로 상에 있는 모든 action value function 을 업데이트 한다~~(**Applying MCTS** 참조). <br>
+After search is finished, select current (real) action with maximum value in search tree <br>
+$a _t = \underset{a\in A}{arg \max} Q(s _t, a)$ <br>
+
+**MCTS (simulation)** <br>
+In MCTS, the simulation policy $\pi$ improves <br>
+Each simulation consists of two phases (in-tree, out-of-tree) <br>
+-Tree policy(improves): pick actions to maximize $Q(S,A)$ <br>
+-Default policy(fixed)(out of tree): pick actions randomly <br>
+Repeat (each simulation) <br>
+-Evaluate states $Q(S,A)$ by MC evaluation <br>
+-Improve tree policy, e.g. by $\epsilon -greedy(Q)$ <br>
+MC control applied to simulated experience <br>
+Converges on the optimal search tree, $Q(S,A)\to q _{\*}(S,A)$ <br>
+
+**Case study: the game of Go** <br>
+
+**Position evaluation in Go** <br>
+![](/public/img/2022-08-26-RLCoursebyDavidSilver-Lecture8/8.png){: width="50%" height="50%"}{: .center} <br>
+
+**MC evaluation in Go** <br>
+![](/public/img/2022-08-26-RLCoursebyDavidSilver-Lecture8/9.png){: width="50%" height="50%"}{: .center} <br>
+
+**Applying MCTS** <br>
+![](/public/img/2022-08-26-RLCoursebyDavidSilver-Lecture8/10.png){: width="50%" height="50%"}{: .center} <br>
+
+![](/public/img/2022-08-26-RLCoursebyDavidSilver-Lecture8/11.png){: width="50%" height="50%"}{: .center} <br>
+
+![](/public/img/2022-08-26-RLCoursebyDavidSilver-Lecture8/12.png){: width="50%" height="50%"}{: .center} <br>
+
+![](/public/img/2022-08-26-RLCoursebyDavidSilver-Lecture8/13.png){: width="50%" height="50%"}{: .center} <br>
+
+![](/public/img/2022-08-26-RLCoursebyDavidSilver-Lecture8/14.png){: width="50%" height="50%"}{: .center} <br>
+
+**Advantages of MCTS** <br>
+Highly selevtive best-first search <br>
+Evaluate states dynamically (unlike e.g. DP) <br>
+Uses sampling to break curse of dimensionality <br>
+Works for "black-box" models (only requires samples) <br>
+Computationally efficient, anytime, parallelisable <br>
+
+**TD Search** <br>
+Simulation-based search <br>
+Using TD instead of MC (bootstrapping) <br>
+MC tree search applies MC control to sub-MDP from now <br>
+TD search applies Sarsa to sub-MDP from now <br>
+
+Simulate episodes from the current (real) state $s _t$ <br>
+Estimate action-value function $Q(s,a)$ <br>
+For each step of simulation, update action-values by Sarsa <br>
+$\Delta Q (S,A) = \alpha (R + \gamma Q(S',A')-Q(S,A))$ <br>
+Select action sbased on action-values $Q(s,a)$ <br>
+-e.g. $\epsilon$-greedy <br>
+May also use function approximation for $Q$ <br>
+
+**Dyna-2** <br>
+In Dyna-2, the agent stores two sets of feature wweights <br>
+-Long-term memory <br>
+-Short-term (working) memory <br>
+Long-term memory is updated from real experience using TD learning <br>
+-General domain knowledge that applies to any episode <br>
+Short-term memory is updated fromn simulated experience using TD search <br>
+-Specific local knowledge about the current situation <br>
+Over value function is sum of long and short-term memories <br>
 
 ---
 
+### Questions 
 
-
+- MCTS 에서 한 root state 에 대한 업데이트가 완료되고 나면, tree policy 들은 어떻게 되는거지? 버려지는 건가? <br>
+- 버려지는게 아니라 simulation policy 를 위한 Q value 들이 저장되는 거고 (tree policy 로) 다음 MC sample 에서 다시 사용되겠지 <br>
