@@ -172,3 +172,4 @@ John Schulman, OpenAI, DeepMind, NeurIPS, Ian Goodfellow, Andrew Ng, ICML, ICLR,
   - 2022/08/26
     - [ ] **논리적 사고**
     - [ ] David Silver lecture 8
+    - [ ] [Gitbook](https://dnddnjs.gitbooks.io/rl/content/) reading chapter 10 (skipped chapter 9)
