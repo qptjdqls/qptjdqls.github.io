@@ -66,6 +66,7 @@ permalink: /0
   - [x] Central limit theorem 
   - [x] Law of total probability, expectation, and variance
   - [x] **논리적 사고와 추론**
+  - [x] Jensen-Shannon divergence python code
 
 ---
 
