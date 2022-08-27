@@ -169,10 +169,13 @@ John Schulman, OpenAI, DeepMind, NeurIPS, Ian Goodfellow, Andrew Ng, ICML, ICLR,
     - [ ] Policy gradient with eligibility traces
     - [ ] Alternative policy gradient direction
   - [ ] Build env for RL (1)
-    - [ ] [DQN tutorial](https://tutorials.pytorch.kr/intermediate/reinforcement_q_learning.html)
+    - [x] [DQN tutorial](https://tutorials.pytorch.kr/intermediate/reinforcement_q_learning.html)
     - [ ] [Mario turtorial](https://tutorials.pytorch.kr/intermediate/mario_rl_tutorial.html)
   - 2022/08/26
     - [x] **논리적 사고와 추론**
     - [x] David Silver lecture 8
       - [ ] Questions, MCTS
     - [ ] [Gitbook](https://dnddnjs.gitbooks.io/rl/content/) reading chapter 10 (skipped chapter 9)
+  - 2022/08/27  
+    - [x] pytorch sequential, unfold, zip
+    - [ ] David Silver lecture 9
