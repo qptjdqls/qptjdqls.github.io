@@ -1,6 +1,6 @@
 ---
 layout: post
-title: sequential, unfold, zip
+title: pytorch sequential, unfold, zip
 date: 2022-08-27 11:59:59 +0900
 categories: python
 permalink: /21
