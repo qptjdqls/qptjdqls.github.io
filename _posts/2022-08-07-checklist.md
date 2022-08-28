@@ -178,4 +178,10 @@ John Schulman, OpenAI, DeepMind, NeurIPS, Ian Goodfellow, Andrew Ng, ICML, ICLR,
     - [ ] [Gitbook](https://dnddnjs.gitbooks.io/rl/content/) reading chapter 10 (skipped chapter 9)
   - 2022/08/27  
     - [x] pytorch sequential, unfold, zip
-    - [ ] David Silver lecture 9
+    - [x] David Silver lecture 9
+      - [ ] Upper confidence bounds
+      - [ ] Probability matching
+      - [ ] Information state search
+  - 2022/08/28
+    - [ ] David Silver lecture 10
+    - [ ] Paper: Reinforcement learning for visual object detection
