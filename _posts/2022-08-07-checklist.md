@@ -175,7 +175,7 @@ John Schulman, OpenAI, DeepMind, NeurIPS, Ian Goodfellow, Andrew Ng, ICML, ICLR,
     - [x] **논리적 사고와 추론**
     - [x] David Silver lecture 8
       - [ ] Questions, MCTS
-    - [ ] [Gitbook](https://dnddnjs.gitbooks.io/rl/content/) reading chapter 10 (skipped chapter 9)
+    - [ ] ~~[Gitbook](https://dnddnjs.gitbooks.io/rl/content/) reading chapter 10 (skipped chapter 9)~~
   - 2022/08/27  
     - [x] pytorch sequential, unfold, zip
     - [x] David Silver lecture 9
@@ -183,5 +183,8 @@ John Schulman, OpenAI, DeepMind, NeurIPS, Ian Goodfellow, Andrew Ng, ICML, ICLR,
       - [ ] Probability matching
       - [ ] Information state search
   - 2022/08/28
-    - [ ] David Silver lecture 10
+    - [x] David Silver lecture 10
+      - [ ] [visible ver.](https://www.youtube.com/watch?v=N1LKLc6ufGY)
     - [ ] Paper: Reinforcement learning for visual object detection
+  - 2022/08/29
+    - [ ] [Gitbook](https://dnddnjs.gitbooks.io/rl/content/) reading chapter 10 (skipped chapter 9)
