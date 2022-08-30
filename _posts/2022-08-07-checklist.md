@@ -188,3 +188,5 @@ John Schulman, OpenAI, DeepMind, NeurIPS, Ian Goodfellow, Andrew Ng, ICML, ICLR,
     - [ ] Paper: Reinforcement learning for visual object detection
   - 2022/08/29
     - [ ] [Gitbook](https://dnddnjs.gitbooks.io/rl/content/) reading chapter 10 (skipped chapter 9)
+  - 2022/08/30
+    - [x] Register Kaggle Connect X

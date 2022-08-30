@@ -18,17 +18,17 @@ permalink: /5
       - [x] Lecture 2
       - [x] Lecture 3
       - [x] Lecture 4
-      - [ ] Lecture 5
-      - [ ] Lecture 6
-      - [ ] Lecture 7
-      - [ ] Lecture 8
-      - [ ] Lecture 9
-      - [ ] Lecture 10
+      - [x] Lecture 5
+      - [x] Lecture 6
+      - [x] Lecture 7
+      - [x] Lecture 8
+      - [x] Lecture 9
+      - [x] Lecture 10
       - [ ] Assignment
       - [ ] Exam
     - [ ] 수학으로 풀어보는 강화학습 원리와 알고리즘
       - [ ] pytorch 로 구현
-      - [ ] 1장 강화학습 수학
+      - [x] 1장 강화학습 수학
       - [ ] 2장 강화학습 개념
       - [ ] 3장 정책 그래디언트
       - [ ] 4장 A2C
@@ -40,6 +40,7 @@ permalink: /5
       - [ ] 10장 로컬 모델 기반 강화학습
     - [ ] https://sites.ualberta.ca/~szepesva/papers/RLAlgsInMDPs.pdf
     - [ ] [강화학습 대회](https://github.com/seungjaeryanlee/awesome-rl-competitions) 참여
+      - [ ] Kaggle Connext X
     - [ ] John Schulmann 강의자료
     - [ ] UC berkely CS188
     - [ ] UC berkely CS294
@@ -167,7 +168,7 @@ permalink: /5
 7. 이정우의 강화학습 공부 스토리
    - 모두의 연구소에서 진행했던 AI college 활동을 하며 RL 시작
    - 스타크래프트를 이용한 환경에서 여러 task 를 DQN, A2C, PPO 를 구현해 해결
-   - 당시 multi-agent RL 에 대한 공부를 토앻 시야를 넓힘
+   - 당시 multi-agent RL 에 대한 공부를 통해 시야를 넓힘
    - 레빈 교수의 CS285
    - DeepMind 의 주요 알고리즘 논문 리뷰를 하는 'Deepmind 따라가기'
    - Model-based RL 공부
