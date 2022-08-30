@@ -31,6 +31,15 @@ permalink: /0
 |**한 세션이 끝나면**|**가장 먼저**|**기록**|
 
 ---
+- <span style="color: red">**EMERGENCY**</span>
+  - N-Color unmixing Supplementary 작성
+    - JSD proof
+    - Figure + caption
+  - Code 정리
+  - Code insturction 작성
+  - 본문 citation 추가
+  - 본문 denoising 내용 추가?
+
 - **IN PROGRESS**
   - David Silver lecture
   - Gitbook [Fundamental of Reinforcment Learning](https://dnddnjs.gitbooks.io/rl/content/)
@@ -185,8 +194,10 @@ John Schulman, OpenAI, DeepMind, NeurIPS, Ian Goodfellow, Andrew Ng, ICML, ICLR,
   - 2022/08/28
     - [x] David Silver lecture 10
       - [ ] [visible ver.](https://www.youtube.com/watch?v=N1LKLc6ufGY)
-    - [ ] Paper: Reinforcement learning for visual object detection
+    - [ ] ~~Paper: Reinforcement learning for visual object~~ detection
   - 2022/08/29
     - [ ] [Gitbook](https://dnddnjs.gitbooks.io/rl/content/) reading chapter 10 (skipped chapter 9)
   - 2022/08/30
     - [x] Register Kaggle Connect X
+    - [x] Emergency 추가
+    - [ ] Paper: Reinforcement learning for visual object 
