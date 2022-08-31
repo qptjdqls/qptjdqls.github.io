@@ -201,3 +201,7 @@ John Schulman, OpenAI, DeepMind, NeurIPS, Ian Goodfellow, Andrew Ng, ICML, ICLR,
     - [x] Register Kaggle Connect X
     - [x] Emergency 추가
     - [ ] Paper: Reinforcement learning for visual object 
+  - 2022/08/31
+    - [ ] 아이패드로 논문 읽기: Flexcil
+    - [ ] [E] N-Color unmixing Supplementary 작성
+    - [ ] [E] Code 정리
