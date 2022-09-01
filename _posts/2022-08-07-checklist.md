@@ -47,17 +47,21 @@ permalink: /0
   - 수학으로 풀어보는 강화학습 원리와 알고리즘
 
 - **ICE BOX (<U>MAXLEN=5</U>)**
+  - [ ] Why does the optimal policy exist?
+    - https://towardsdatascience.com/why-does-the-optimal-policy-exist-29f30fd51f8c
   - [ ] [RL bootcamp](https://sites.google.com/view/deep-rl-bootcamp/lectures)
   - [ ] https://sites.ualberta.ca/~szepesva/papers/RLAlgsInMDPs.pdf
   - [ ] Importance sampling
-  - [ ] [VAE, reparametrization trick](https://jaejunyoo.blogspot.com/2017/04/auto-encoding-variational-bayes-vae-1.html)
-    - [PR-010: Auto-Encoding Variational Bayes, ICLR 2014](https://www.youtube.com/watch?v=KYA-GEhObIs&list=PLlMkM4tgfjnJhhd4wn5aj8fVTYJwIpWkS&index=12)
+    - RL 에서 필요한 상황
   - [ ] [InfoGAN 논문 재작성](https://www.inference.vc/infogan-variational-bound-on-mutual-information-twice/)
     - uppder bound of mutual information
     - [On Information Theoretic Bounds for SGD](https://www.inference.vc/on-information-theoretic-bounds-for-sgd/)
     - [openai code](https://github.com/openai/InfoGAN/blob/master/infogan/algos/infogan_trainer.py)
   
 - **FREEZER (<U>MAXLEN=10</U>)**
+    - [ ] 강화학습이론 강의
+    - [ ] [VAE, reparametrization trick](https://jaejunyoo.blogspot.com/2017/04/auto-encoding-variational-bayes-vae-1.html)
+    - [PR-010: Auto-Encoding Variational Bayes, ICLR 2014](https://www.youtube.com/watch?v=KYA-GEhObIs&list=PLlMkM4tgfjnJhhd4wn5aj8fVTYJwIpWkS&index=12)
   - [ ] Meausre theory
   - [ ] Kaggle
   - [ ] Inverse RL
@@ -202,6 +206,6 @@ John Schulman, OpenAI, DeepMind, NeurIPS, Ian Goodfellow, Andrew Ng, ICML, ICLR,
     - [x] Emergency 추가
     - [ ] Paper: Reinforcement learning for visual object 
   - 2022/08/31
-    - [ ] 아이패드로 논문 읽기: Flexcil
+    - [x] 아이패드로 논문 읽기: Flexcil
     - [ ] [E] N-Color unmixing Supplementary 작성
     - [ ] [E] Code 정리
