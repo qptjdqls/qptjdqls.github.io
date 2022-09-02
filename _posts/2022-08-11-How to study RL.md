@@ -38,6 +38,11 @@ permalink: /5
       - [ ] 8장 SAC
       - [ ] 9장 모델 기반 강화학습 기초
       - [ ] 10장 로컬 모델 기반 강화학습
+    - [RL bootcamp](https://sites.google.com/view/deep-rl-bootcamp/lectures)
+      - [ ] 1
+      - [ ] 2
+      - [ ] 3
+      - [ ] ...
     - [ ] https://sites.ualberta.ca/~szepesva/papers/RLAlgsInMDPs.pdf
     - [ ] [강화학습 대회](https://github.com/seungjaeryanlee/awesome-rl-competitions) 참여
       - [ ] Kaggle Connext X
@@ -46,10 +51,10 @@ permalink: /5
     - [ ] UC berkely CS294
     - 구현
       - [ ] REINFORCE
-      - [ ] DQN
+      - [x] DQN
       - [ ] Actor-Critic
       - [ ] A3C
-      - [ ] DDQN
+      - [x] DDQN
       - [ ] Dueling Network
       - [ ] PER
       - [ ] NoiseNET

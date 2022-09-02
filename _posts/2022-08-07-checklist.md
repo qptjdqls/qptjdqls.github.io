@@ -42,14 +42,13 @@ permalink: /0
 
 - **IN PROGRESS**
   - David Silver lecture
-  - Gitbook [Fundamental of Reinforcment Learning](https://dnddnjs.gitbooks.io/rl/content/)
   - Effective python
   - 수학으로 풀어보는 강화학습 원리와 알고리즘
+  - [RL bootcamp](https://sites.google.com/view/deep-rl-bootcamp/lectures)
 
 - **ICE BOX (<U>MAXLEN=5</U>)**
   - [ ] Why does the optimal policy exist?
     - https://towardsdatascience.com/why-does-the-optimal-policy-exist-29f30fd51f8c
-  - [ ] [RL bootcamp](https://sites.google.com/view/deep-rl-bootcamp/lectures)
   - [ ] https://sites.ualberta.ca/~szepesva/papers/RLAlgsInMDPs.pdf
   - [ ] Importance sampling
     - RL 에서 필요한 상황
@@ -80,6 +79,9 @@ permalink: /0
   - [x] Law of total probability, expectation, and variance
   - [x] **논리적 사고와 추론**
   - [x] Jensen-Shannon divergence python code
+  - [x] DQN: Cartpole
+  - [x] DDQN: Mario
+  - [ ] Gitbook [Fundamental of Reinforcment Learning](https://dnddnjs.gitbooks.io/rl/content/)
 
 ---
 
@@ -183,7 +185,7 @@ John Schulman, OpenAI, DeepMind, NeurIPS, Ian Goodfellow, Andrew Ng, ICML, ICLR,
     - [ ] Alternative policy gradient direction
   - [ ] Build env for RL (1)
     - [x] [DQN tutorial](https://tutorials.pytorch.kr/intermediate/reinforcement_q_learning.html)
-    - [ ] [Mario turtorial](https://tutorials.pytorch.kr/intermediate/mario_rl_tutorial.html)
+    - [ ] ~~[Mario turtorial](https://tutorials.pytorch.kr/intermediate/mario_rl_tutorial.html)~~
   - 2022/08/26
     - [x] **논리적 사고와 추론**
     - [x] David Silver lecture 8
@@ -200,12 +202,15 @@ John Schulman, OpenAI, DeepMind, NeurIPS, Ian Goodfellow, Andrew Ng, ICML, ICLR,
       - [ ] [visible ver.](https://www.youtube.com/watch?v=N1LKLc6ufGY)
     - [ ] ~~Paper: Reinforcement learning for visual object~~ detection
   - 2022/08/29
-    - [ ] [Gitbook](https://dnddnjs.gitbooks.io/rl/content/) reading chapter 10 (skipped chapter 9)
+    - [x] [Gitbook](https://dnddnjs.gitbooks.io/rl/content/) reading chapter 10 (skipped chapter 9)
   - 2022/08/30
     - [x] Register Kaggle Connect X
     - [x] Emergency 추가
     - [ ] Paper: Reinforcement learning for visual object 
   - 2022/08/31
     - [x] 아이패드로 논문 읽기: Flexcil
-    - [ ] [E] N-Color unmixing Supplementary 작성
-    - [ ] [E] Code 정리
+    - [x] [E] N-Color unmixing Supplementary 작성
+    - [x] [E] Code 정리
+  - 2022/09/02
+    - [Gitbook](https://dnddnjs.gitbooks.io/rl/content/) reading chapter 10 (skipped chapter 9)
+    - [ ] [Mario turtorial](https://tutorials.pytorch.kr/intermediate/mario_rl_tutorial.html)
