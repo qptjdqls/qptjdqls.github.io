@@ -183,7 +183,7 @@ John Schulman, OpenAI, DeepMind, NeurIPS, Ian Goodfellow, Andrew Ng, ICML, ICLR,
   - [x] David Silver lecture 7
     - [ ] Policy gradient with eligibility traces
     - [ ] Alternative policy gradient direction
-  - [ ] Build env for RL (1)
+  - [x] Build env for RL (1)
     - [x] [DQN tutorial](https://tutorials.pytorch.kr/intermediate/reinforcement_q_learning.html)
     - [ ] ~~[Mario turtorial](https://tutorials.pytorch.kr/intermediate/mario_rl_tutorial.html)~~
   - 2022/08/26
@@ -212,5 +212,6 @@ John Schulman, OpenAI, DeepMind, NeurIPS, Ian Goodfellow, Andrew Ng, ICML, ICLR,
     - [x] [E] N-Color unmixing Supplementary 작성
     - [x] [E] Code 정리
   - 2022/09/02
-    - [Gitbook](https://dnddnjs.gitbooks.io/rl/content/) reading chapter 10 (skipped chapter 9)
-    - [ ] [Mario turtorial](https://tutorials.pytorch.kr/intermediate/mario_rl_tutorial.html)
+    - [ ] [Gitbook](https://dnddnjs.gitbooks.io/rl/content/) reading chapter 10 (skipped chapter 9)
+    - [x] [Mario turtorial](https://tutorials.pytorch.kr/intermediate/mario_rl_tutorial.html)
+      - [x] gym wrappers chaining
