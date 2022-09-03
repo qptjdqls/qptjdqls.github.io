@@ -47,6 +47,7 @@ permalink: /0
   - [RL bootcamp](https://sites.google.com/view/deep-rl-bootcamp/lectures)
 
 - **ICE BOX (<U>MAXLEN=5</U>)**
+  - [ ] python design pattern youtube
   - [ ] Why does the optimal policy exist?
     - https://towardsdatascience.com/why-does-the-optimal-policy-exist-29f30fd51f8c
   - [ ] https://sites.ualberta.ca/~szepesva/papers/RLAlgsInMDPs.pdf

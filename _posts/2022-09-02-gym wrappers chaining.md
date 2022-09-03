@@ -105,6 +105,7 @@ class ObservationWrapper(Wrapper):
 ```class ObservationWrapper(Wrapper)``` 은 ```class Wrapper``` 를 상속받고 ```observation``` 의 구현을 요구한다. <br>
 주의해서 봐야할 것은 ```reset``` 과 ```step``` 메서드 안에서 ```self.env.reset``` 과 ```self.env.step``` 를 호출하고 새롭게 구현된 ```observation``` 을 호출하는 것을 확인할 수 있다. <br>
 ```env = GrayScaleObservation(env)``` 와 같이 ```self.env``` 는 인자로 받은 이전 ```env``` 를 가르키고, 즉 이는 linked list 와 같이 이전 env 를 기억하여 작업이 순차적으로 누적될 수 있도록 한다. <br>
-이러한 chain 형태의 구현과 유사한 것으로 디자인 패턴 중 ***chain of responsibility*** 라는 패턴이 유사하고, 이는 웹개발에 자주 사용된다고 한다. <br>
+~~이러한 chain 형태의 구현과 유사한 것으로 디자인 패턴 중 ***chain of responsibility*** 라는 패턴이 유사하고, 이는 웹개발에 자주 사용된다고 한다.~~ <br>
+이러한 형태의 구현과 유사한 디자인 패턴으로 데코레이터 패턴이 존재한다. <br>
 추가적으로 ```env.observation``` 과 같이 ```observation``` 직접적으로 호출하는 방식을 사용해서는 안된다는 것을(혹은 이를 고려해서 구현을 해야하는 것을) 알 수 있다. <br>
 ```class Wrapper```의 주석에서 적혀있듯이 'Don't forget to call ``super().__init__(env)`` if the subclass overrides'. <br>
