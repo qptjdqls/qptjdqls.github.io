@@ -216,3 +216,5 @@ John Schulman, OpenAI, DeepMind, NeurIPS, Ian Goodfellow, Andrew Ng, ICML, ICLR,
     - [ ] [Gitbook](https://dnddnjs.gitbooks.io/rl/content/) reading chapter 10 (skipped chapter 9)
     - [x] [Mario turtorial](https://tutorials.pytorch.kr/intermediate/mario_rl_tutorial.html)
       - [x] gym wrappers chaining
+  - 2022/09/03
+    - [x] python design pattern youtube
