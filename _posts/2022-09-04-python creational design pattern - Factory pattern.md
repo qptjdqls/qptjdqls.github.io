@@ -68,3 +68,27 @@ dog.speak()
 >>> bark
 
 ```
+
+```Enum``` 을 사용한 버전 <br>
+
+```python
+from enum import Enum
+class AnimalEnum(Enum):
+    CAT = 1
+    DOG = 2
+...
+def FactoryFn(animal: AnimalEnum):
+    if animal == AnimalEnum.CAT:
+        return Cat()
+    elif animal == AnimalEnum.DOG:
+        return Dog()
+
+cat = FactoryFn(AnimalEnum.CAT)
+cat.speak()
+dog = FactoryFn(AnimalEnum.DOG)
+dog.speak()
+
+>>> meow
+>>> bark
+
+```
