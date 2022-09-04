@@ -45,9 +45,9 @@ permalink: /0
   - Effective python
   - 수학으로 풀어보는 강화학습 원리와 알고리즘
   - [RL bootcamp](https://sites.google.com/view/deep-rl-bootcamp/lectures)
+  - python design pattern youtube
 
 - **ICE BOX (<U>MAXLEN=5</U>)**
-  - [ ] python design pattern youtube
   - [ ] Why does the optimal policy exist?
     - https://towardsdatascience.com/why-does-the-optimal-policy-exist-29f30fd51f8c
   - [ ] https://sites.ualberta.ca/~szepesva/papers/RLAlgsInMDPs.pdf
@@ -218,3 +218,6 @@ John Schulman, OpenAI, DeepMind, NeurIPS, Ian Goodfellow, Andrew Ng, ICML, ICLR,
       - [x] gym wrappers chaining
   - 2022/09/03
     - [x] python design pattern youtube
+  - 2022/09/04
+    - [x] python creational design pattern - Introduction
+    - [x] python creational design pattern - Factory pattern
