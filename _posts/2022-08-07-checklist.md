@@ -221,3 +221,7 @@ John Schulman, OpenAI, DeepMind, NeurIPS, Ian Goodfellow, Andrew Ng, ICML, ICLR,
   - 2022/09/04
     - [x] python creational design pattern - Introduction
     - [x] python creational design pattern - Factory pattern
+  - 2022/09/05
+    - [ ] N-Color unmixing Supplementary 작성
+      - [ ] JSD proof
+      - [ ] Figure + caption
