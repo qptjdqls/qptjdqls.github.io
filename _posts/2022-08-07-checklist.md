@@ -48,6 +48,7 @@ permalink: /0
   - python design pattern youtube
 
 - **ICE BOX (<U>MAXLEN=5</U>)**
+  - [ ] 심층학습이론 수업
   - [ ] Why does the optimal policy exist?
     - https://towardsdatascience.com/why-does-the-optimal-policy-exist-29f30fd51f8c
   - [ ] https://sites.ualberta.ca/~szepesva/papers/RLAlgsInMDPs.pdf
@@ -82,7 +83,7 @@ permalink: /0
   - [x] Jensen-Shannon divergence python code
   - [x] DQN: Cartpole
   - [x] DDQN: Mario
-  - [ ] Gitbook [Fundamental of Reinforcment Learning](https://dnddnjs.gitbooks.io/rl/content/)
+  - [x] Gitbook [Fundamental of Reinforcment Learning](https://dnddnjs.gitbooks.io/rl/content/)
 
 ---
 
@@ -203,17 +204,18 @@ John Schulman, OpenAI, DeepMind, NeurIPS, Ian Goodfellow, Andrew Ng, ICML, ICLR,
       - [ ] [visible ver.](https://www.youtube.com/watch?v=N1LKLc6ufGY)
     - [ ] ~~Paper: Reinforcement learning for visual object~~ detection
   - 2022/08/29
-    - [x] [Gitbook](https://dnddnjs.gitbooks.io/rl/content/) reading chapter 10 (skipped chapter 9)
+    - [ ] ~~[Gitbook](https://dnddnjs.gitbooks.io/rl/content/) reading chapter 10 (skipped chapter 9)~~
   - 2022/08/30
     - [x] Register Kaggle Connect X
     - [x] Emergency 추가
-    - [ ] Paper: Reinforcement learning for visual object 
+    - [ ] ~~Paper: Reinforcement learning for visual object~~ 
   - 2022/08/31
     - [x] 아이패드로 논문 읽기: Flexcil
     - [x] [E] N-Color unmixing Supplementary 작성
     - [x] [E] Code 정리
   - 2022/09/02
-    - [ ] [Gitbook](https://dnddnjs.gitbooks.io/rl/content/) reading chapter 10 (skipped chapter 9)
+    - [x] [Gitbook](https://dnddnjs.gitbooks.io/rl/content/) reading chapter 9
+    - [x] [Gitbook](https://dnddnjs.gitbooks.io/rl/content/) reading chapter 10
     - [x] [Mario turtorial](https://tutorials.pytorch.kr/intermediate/mario_rl_tutorial.html)
       - [x] gym wrappers chaining
   - 2022/09/03
@@ -225,3 +227,5 @@ John Schulman, OpenAI, DeepMind, NeurIPS, Ian Goodfellow, Andrew Ng, ICML, ICLR,
     - [ ] N-Color unmixing Supplementary 작성
       - [ ] JSD proof
       - [ ] Figure + caption
+  - 2022/09/06
+    - [ ] Paper: Reinforcement learning for visual object 
