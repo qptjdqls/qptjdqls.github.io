@@ -228,4 +228,5 @@ John Schulman, OpenAI, DeepMind, NeurIPS, Ian Goodfellow, Andrew Ng, ICML, ICLR,
       - [ ] JSD proof
       - [ ] Figure + caption
   - 2022/09/06
-    - [ ] Paper: Reinforcement learning for visual object 
+    - [x] Paper: Reinforcement learning for visual object
+  - 2022/09/07
