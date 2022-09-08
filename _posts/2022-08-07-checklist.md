@@ -44,6 +44,7 @@ permalink: /0
   - David Silver lecture
   - Effective python
   - 수학으로 풀어보는 강화학습 원리와 알고리즘
+  - 수학으로 풀어보는 강화학습 원리와 알고리즘 pytorch
   - [RL bootcamp](https://sites.google.com/view/deep-rl-bootcamp/lectures)
   - python design pattern youtube
 
