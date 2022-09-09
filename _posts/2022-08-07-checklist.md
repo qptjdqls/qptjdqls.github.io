@@ -29,6 +29,8 @@ permalink: /0
 |잠에서 깨면|핸드폰 보기 전에|일어나서 물 마시기|
 |이상할 때, 내가 잘못 이해한것 같을 때, 수상할 때|가장 먼저|질문, 문제 해결|
 |**한 세션이 끝나면**|**가장 먼저**|**기록**|
+|12~02 시 사이에||점심 먹기|
+|18~20 시 사이에||저녁 먹기|
 
 ---
 - <span style="color: red">**EMERGENCY**</span>
@@ -230,4 +232,5 @@ John Schulman, OpenAI, DeepMind, NeurIPS, Ian Goodfellow, Andrew Ng, ICML, ICLR,
       - [ ] Figure + caption
   - 2022/09/06
     - [x] Paper: Reinforcement learning for visual object
-  - 2022/09/07
+  - 2022/09/09
+    - [ ] 점심 / 저녁 시간
