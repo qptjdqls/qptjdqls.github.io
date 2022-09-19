@@ -27,6 +27,7 @@ permalink: /0
 |누웠을 때|핸드폰 볼때|누워서 하는 운동|
 |누웠을 때|핸드폰 볼때|유명 연구/개발자 SNS 확인|
 |잠에서 깨면|핸드폰 보기 전에|일어나서 물 마시기|
+|잠에서 깨면|핸드폰 보기 전에|일어나서 비타민 먹기|
 |이상할 때, 내가 잘못 이해한것 같을 때, 수상할 때|가장 먼저|질문, 문제 해결|
 |**한 세션이 끝나면**|**가장 먼저**|**기록**|
 |12~02 시 사이에||점심 먹기|
@@ -233,4 +234,8 @@ John Schulman, OpenAI, DeepMind, NeurIPS, Ian Goodfellow, Andrew Ng, ICML, ICLR,
   - 2022/09/06
     - [x] Paper: Reinforcement learning for visual object
   - 2022/09/09
-    - [ ] 점심 / 저녁 시간
+    - [x] 점심 / 저녁 시간
+  - 2022/09/19
+    - [x] 청소
+    - [x] pytorch Module, Sequential, ModuleList, and ModuleDict
+    - [ ] writing 마무리
