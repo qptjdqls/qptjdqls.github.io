@@ -87,6 +87,6 @@ permalink: /28
 - 2022/11/13
   - [x] problem set 2
 - 2022/11/14
-  - [ ] review paper (이전 발표자들 자료 정리)
+  - [x] review paper (이전 발표자들 자료 정리)
   - [ ] Decision transformer 읽기
   - [ ] MADDPG 
