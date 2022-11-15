@@ -92,3 +92,14 @@ permalink: /28
     - [ ] (이전 발표자들 자료 정리)
   - [ ] Decision transformer 읽기
   - [ ] MADDPG 
+- 2022/11/15
+  - [ ] review paper
+    - [ ] Dream to Control: Learning Behaviors by Latent Imagination
+    - [ ] SAC
+    - [ ] (이전 발표자들 자료 정리)
+  - [ ] Decision transformer 
+    - [ ] test
+    - [ ] ppt
+  - [ ] MADDPG
+    - [ ] test
+  - [ ] 정보이론 과제
