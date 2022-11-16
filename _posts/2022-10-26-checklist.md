@@ -20,7 +20,7 @@ permalink: /28
    - easy situation 이 trigger 가 되게 해서 hard action 을 습관으로 만들수 있다. 
 
 - [ ] 10:00 까지 목표 지점 도착 
-- [ ] 21:00 까지 집 x
+- [ ] 21:00 까지 외부에 있기
 - [ ] 공간을 목적에 따라 구분
 
 - [ ] 이상할 때, 내가 잘못 이해한것 같을 때, 수상할 때 가장 먼저 질문, 문제 해결
@@ -103,3 +103,18 @@ permalink: /28
   - [ ] MADDPG
     - [ ] test
   - [ ] 정보이론 과제
+- 2022/11/16
+  - - [x] review paper
+    - [x] Dream to Control: Learning Behaviors by Latent Imagination
+    - [ ] SAC
+    - [ ] (이전 발표자들 자료 정리)
+  - [x] Decision transformer 
+    - [ ] test
+    - [x] ppt
+  - [ ] MADDPG
+    - [ ] test
+  - [x] 정보이론 과제
+- 2022/11/17
+  - [ ] Cellpose / NMF / EXTRACT 중 택 1
+  - [ ] Imitation learning paper reading
+  - [ ] MADDPG
