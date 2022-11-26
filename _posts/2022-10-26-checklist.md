@@ -115,5 +115,16 @@ permalink: /28
   - [x] 정보이론 과제
 - 2022/11/17
   - [ ] Cellpose / NMF / EXTRACT 중 택 1
-  - [ ] Imitation learning paper reading
+  - [x] Imitation learning paper reading
   - [ ] MADDPG
+- 2022/11/27
+  - [ ] EXTRACT 논문
+  - [ ] SAC, PPO 정리
+    - [ ] NIPS 발표 논문 정리
+  - [ ] Cell segmentation with RL
+    - [ ] MADDPG
+  - [ ] Noise Robust GAN
+  - [ ] 시험공부
+    - [ ] 정보이론
+    - [ ] 심층학습이론
+    - [ ] 심층강화학습
