@@ -46,6 +46,8 @@ permalink: /28
 
 
 - **ICE BOX (<U>MAXLEN=5</U>)**
+  - [ ] Wen sun Reinforcement learning book
+  - [ ] 모두를 위한 메타러닝
   - [ ] Why does the optimal policy exist?
     - https://towardsdatascience.com/why-does-the-optimal-policy-exist-29f30fd51f8c
   - [ ] https://sites.ualberta.ca/~szepesva/papers/RLAlgsInMDPs.pdf
@@ -128,3 +130,8 @@ permalink: /28
     - [ ] 정보이론
     - [ ] 심층학습이론
     - [ ] 심층강화학습
+- 2023/01/17
+  - [ ] Unet-based 구현
+  - [ ] pixel affinity 구현
+  - [ ] dataset 에 augmentation 구현
+  - [ ] Fully unsupervised 생각
