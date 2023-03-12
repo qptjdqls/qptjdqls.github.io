@@ -8,7 +8,7 @@ permalink: /0
 
 # checklist
 
-0. What did you do during all day?
+0. What did you do during all day? 
    - 하루 동안 한 일 자세하게 작성
 
 1. [Bill Evans](https://www.youtube.com/watch?v=anH8Y8vAz2Q&t=110s)
